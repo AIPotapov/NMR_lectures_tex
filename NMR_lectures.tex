@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[handout]{beamer}
 \usepackage[latin1]{inputenc}
 \usepackage{bm, array, graphicx, hyperref, amsmath, setspace, geometry, wrapfig}
 \usepackage{hanging}
@@ -1569,14 +1569,37 @@ For all the transitions we obtain:
     	\end{figure}
 \end{frame}
 
-\begin{frame}{\thesection.\thesubsection. \insertsubsection}
-	The magnitude of quadrupolar coupling could be rather large (up to 1000 MHz). Even for the same nucleus in different chemical environment could have very different quadrupolar coupling.
-	
-	For instance $NaCl$ crystals have very high cubic symmetry, and electric field gradient at the location of $Na$ is zero. While in $NaNO_2$ crystal the electric field gradient is not zero due to the shape of $NO_2$, $\chi \approx 1.1$ MHz.
+\begin{frame}[shrink=5]{\thesection.\thesubsection. \insertsubsection}
+  \onslide<1->
+  The magnitude of quadrupolar coupling could be rather large (up to 1000 MHz). Even for the same nucleus in different chemical environment could have very different quadrupolar coupling, because the electric field gradient might be very different.
+  
+  \begin{equation}
+  \hat{H_Q} = \dfrac{eQ}{6I(2I-1)\hbar} \sum_{i,j=x,y,z} \hat{I}_i e q_{ij}  \hat{I}_j, 
+  \end{equation}
+  
+  \onslide<2>
+  \begin{block}{Problem}
+  	Which $Na$ quadrupolar coupling is larger: in $NaCl$ or $NaNO_2$ crystals?
+  \end{block}
+
 	\begin{figure}
-      \centering
-      \includegraphics[scale=0.5]{figures/Quadrupole3.png}
+	\centering
+	\includegraphics[scale=0.5]{figures/Quadrupole3.png}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}
+    \begin{block}{Answer}
+    	$NaCl$ crystals have very high cubic symmetry, and electric field gradient at the location of $Na$ is zero. While in $NaNO_2$ crystal the electric field gradient is not zero due to the shape of $NO_2$, $\chi \approx 1.1$ MHz.
+    	
+    \end{block}
+
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.5]{figures/Quadrupole3.png}
 	\end{figure}
+	
 	
 \end{frame}
 
@@ -1870,16 +1893,49 @@ For all the transitions we obtain:
 	\begin{equation}
 		M_z(t) = M_0 - (M_0 - M_z(0)  ) e^{-t/T_1}		
 	\end{equation}
-	
-	
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{figures/T1buildup.png}
+\end{figure}
+
+
+\end{frame}
+
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
 	The transverse magnetization has a solution:
-	\begin{equation}
+	\begin{equation} \label{eq: transverse magnetization}
 	\begin{array}{lcl}
        M_x(t)&=& (M_x(0) \cos( \omega t)  + M_y(0) \sin( \omega t)) e^{t/T_2} \\     
        M_y(t)&=& (M_y(0) \cos( \omega t)  - M_x(0) \sin( \omega t)) e^{t/T_2} 
 	\end{array}
 	\end{equation}
-	In effect these equations describe magnetization following a $\dfrac{\pi}{2}$ pulse. 
+
+
+\begin{block}{Problem}
+	For the initial $M_x(0)=1$, $M_y(0)=0$ consider the signal $S(t) \sim  \cos( \omega t) e^{t/T_2}  + i \sin( \omega t) e^{t/T_2}  $. Find its Fourier Transform with respect to time.	
+\end{block}
+
+\end{frame}
+
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+	Eqs.\ref{eq: transverse magnetization} describe magnetization following a $\dfrac{\pi}{2}$ pulse, the magnetization following this pulse is called \alert{free induction decay (FID)} and is being recorded by the NMR spectrometer.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.4]{figures/FID.png}
+		\caption{NMR spectra are produced by taking a Fourier transform from the detected FID.}
+	\end{figure}
+	
+	
+	
+ \end{frame}
+    
+ \begin{frame}{\thesection.\thesubsection. \insertsubsection}
     $T_2$ relaxation is responsible for so called \alert{homogeneous} broadening of NMR line. Previously we have seen examples of \alert{inhomogeneous} broadening, where the line has a complex pattern, due to a CSA, dipolar or quadrupolar interaction. After an applied $\pi/2$ pulse the magnetization dephases due to differences in precession frequencies, however, there is a way to refocus it. 
 \end{frame}
 
@@ -1893,7 +1949,14 @@ For all the transitions we obtain:
 \end{frame}
 
 \begin{frame}{Summary of Lecture 7.}
-	content...
+    \begin{itemize}
+    	\item Rotating frame frame is a very useful formalism allowing to simplify the time-evolution of magnetization under the action of pulses
+    	\item NMR signals are detected by measuring the voltages induced by the samples in the coil
+    	\item Bloch equations phenomenologically describe dissipation processes
+    	\item Spin echo is observed in the a simple two-pulse sequence
+    \end{itemize}
+
+	\textbf{Suggested reading:} Harris 3.1,3.2, 3.3, 3.7, 3.8, 3.13, Slichter Ch. 2 for the quantum mechanical treatment of rotating frame and spin echos.
 \end{frame}
 
 \section{NMR Relaxation Mechanisms}
@@ -1929,7 +1992,7 @@ For all the transitions we obtain:
 
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
 
-	\centering\includegraphics[width=0.3\textwidth]{figures/two_level_population.png} \\
+	\includegraphics[width=0.3\textwidth]{figures/two_level_population.png} \\
 	 Previously we considered a two-level system  (see section \ref{seq: population dynamics }), where we introduced the rate of spontaneous transitions $W = \dfrac{1}{2}(W_{12} -W_{21})$ and found that \alert{longitudinal = spin-lattice}:
 	 \begin{equation}
 	   T_1 = \dfrac{1}{2 W}
@@ -2039,6 +2102,14 @@ For all the transitions we obtain:
 	As the correlation time increases, the contribution of the $J(0)$ term becomes increasingly important and $T_2$ thus becomes shorter than $T_1$ (e.g. for large macromolecules).
 \end{frame}
 
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+   \begin{figure}
+   	  \centering
+   	  \includegraphics[scale=0.4]{figures/T1_T2_vs_tc.png}
+   	  \caption{Variation of $T_1$ and $T_2$ with correlation time $\tau$ (log-log plot) Source: \url{http://www.chem.wisc.edu/areas/reich/nmr}
+      }
+   \end{figure}
+\end{frame}
 
 \subsection{Relaxation mechanisms.}
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
@@ -2076,8 +2147,8 @@ For all the transitions we obtain:
     \begin{itemize}
     	\item $T_1$ and $T_2$ relaxation arise due to fluctuations of the local magnetic field, caused by molecular motions.
     	\item the relaxation rates can be calculated using time-dependent perturbation theory
-    	\item there is variety of relaxation mechanisms
-    	\item 
+    	\item there is variety of relaxation mechanisms \\
+        \textbf{Suggested reading:} Harris 3.14, 3.15, 3.16
     \end{itemize}
 \end{frame}
 
