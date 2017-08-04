@@ -1968,13 +1968,13 @@ For all the transitions we obtain:
 
   \begin{figure}
   	\centering
-  	\includegraphics[scale=0.1]{figures/precession.png}
+  	\includegraphics[scale=0.4]{figures/correlation_function.png}
   \end{figure}
 \end{frame}
 
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
 
-	The Fourier transfor of the auto-correlation function is the \alert{spectral density}, $J(\omega)$, which characterises the variation of the "power" of fluctuations with frequency. Reducing the correlation time, increses the range of frequencies spanned by the power spectrum.
+	The Fourier transfer of the auto-correlation function is the \alert{spectral density}, $J(\omega)$, which characterizes the variation of the "power" of fluctuations with frequency. Reducing the correlation time, increases the range of frequencies spanned by the power spectrum.
 	
 	If we also consider the effect of the fluctuating $y$-component of the field, this generates a similar contribution to $W$, since $B_{xL} = B_{yL}$ and $ \mid \langle 2 \mid \hat{I}_x \mid 1 \rangle \mid^2 = \mid \langle 2 \mid \hat{I}_y \mid 1 \rangle \mid^2 = \frac{1}{4}$. However, the fluctuating $z$-component does not contribute, since  $ \mid \langle 2 \mid \hat{I}_z \mid 1 \rangle \mid^2 = 0 $.
 	
@@ -1991,17 +1991,42 @@ For all the transitions we obtain:
 	\begin{equation}
 	 J(\omega) = \dfrac{2 \tau_c}{1 + \omega^2 \tau_c^2}
 	\end{equation}
-	The rate of $T_1$-relaxation due to fluctuations of the field is then given by:
-	\begin{equation}
-	   \dfrac{1}{T_1} = (\gamma B_{xL})^2 \dfrac{2 \tau_c}{1 + \omega^2 \tau_c^2}
-	\end{equation}
-
+	
 \end{frame}
 
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
-	  Figure SSS shows how $T_1$ varies with correlation time in a log-log plot. The value of $T_1$ depends on the size of $\tau_c$ versus $\omega^{-1}$. Under conditions of rapid motion $ \omega_0 \tau_c \ll 1$, $T_1 \approx \dfrac{1}{2 \gamma^2 B_0^2 \tau_c}$, thus increasing as $\tau_c$ decreases. This corresponds to the \alert{extreme line narrowing condition}, which hold for small molecules (e.g. $\tau_c \sim 2$ ps for water and if $\frac{\omega_0}{2 \pi}  = 400$ MHz at 9.4 T, then $\omega_0 \tau_2 \approx 0.005$)
+
+	Spectral density for a random process with exponential correlation function:
+	\begin{equation*}
+     	J(\omega) = \dfrac{2 \tau_c}{1 + \omega^2 \tau_c^2}
+	\end{equation*}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{figures/spectral_density.png}
+	\caption{Spectral density for exponential autocorrelation function.}
+    \end{figure}
+
+\end{frame}
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+	The rate of $T_1$-relaxation due to fluctuations of the field is then given by:
+	\begin{equation}
+		\dfrac{1}{T_1} = (\gamma B_{xL})^2 \dfrac{2 \tau_c}{1 + \omega^2 \tau_c^2}
+	\end{equation}
+	  \begin{figure}\label{fig:T1_vs_tc}
+	  	\centering
+	  	\includegraphics[scale=0.4]{figures/T1_vs_tc.png}
+	  	\caption{$T_1$ variation with correlation time in a log-log plot. }
+	  \end{figure}
+  
+\end{frame}
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+	  
+	  The value of $T_1$ depends on the size of $\tau_c$ versus $\omega^{-1}$. Under conditions of rapid motion $ \omega_0 \tau_c \ll 1$, $T_1 \approx \dfrac{1}{2 \gamma^2 B_{xL}^2 \tau_c}$, thus increasing as $\tau_c$ decreases. This corresponds to the \alert{extreme line narrowing condition}, which hold for small molecules (e.g. $\tau_c \sim 2$ ps for water and if $\frac{\omega_0}{2 \pi}  = 400$ MHz at 9.4 T, then $\omega_0 \tau_2 \approx 0.005$)
 	  In contrast, when the motion is slow $\omega_0 \tau_c \gg 1$, $T_1 \approx \dfrac{\omega_0^2 \tau_c}{2 \gamma^2 B_{xL}^2}$ and $T_1$ increase as the correlation time increases (corresponding to decreasing temperature).
-	  The minimum of $T_1$ occurs when $\omega_0 \tau_c \sim 1$, where the fluctuations at the Larmor frequency are the largest. This gives a minimum $T_1$ values of $T_1 \approx \dfrac{1}{\gamma^2 B_{xL}^2 \tau_c} = \dfrac{\omega_0}{\gamma^2 B_{xL}^2}$
+	  The minimum of $T_1$ occurs when $\omega_0 \tau_c \sim 1$, where the fluctuations at the Larmor frequency are the largest. This gives a minimum $T_1$ values of $T_1= \dfrac{1}{\gamma^2 B_{xL}^2 \tau_c} = \dfrac{\omega_0}{\gamma^2 B_{xL}^2}$
+
 \end{frame}
 
 \subsection{$T_2$ relaxation}
@@ -2031,6 +2056,20 @@ For all the transitions we obtain:
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
    The combined effect of different relaxation mechanisms is found by summing the relaxation rates (i.e. $\frac{1}{T_1} = (\frac{1}{T_1})_{hom} + (\frac{1}{T_1})_{het-d} + (\frac{1}{T_1})_{ue-dd} + ...$)\\
    A few general inferences can be drawn from this table: (i) relaxation due to dipole-dipole coupling is very sensitive to the inter-nuclear separation (scales as $r^{-6}$); (ii) the dependence on $\gamma_A^2 \gamma_X^2$ measns that the effects of \textsuperscript{1}H nuclei generally dominate relaxation in organic molecules; (iii) similarly the presence of any unpaired electron has a very strong effect on relaxation (e.g. use of paramagnetic contrast agents, such as gadolinium chelates in MRI)
+\end{frame}
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+   \begin{figure}
+   	  \centering
+   	  \includegraphics[scale=0.9]{figures/contrast_MRI_Gd.png}
+   	  \caption{MR images acquired before (left) and
+   	  	after (after) administration of a gadolinium-based
+   	  	contrast agent. The contrast agent
+   	  	reduces $T_1$ which enhances the contrast.
+   	  	Contrast agent accumulated in a tumour as a
+   	  	result of break-down of the blood-brain
+   	  	barrier (home.physics.wisc.edu).}
+   \end{figure}
 \end{frame}
 
 \begin{frame}{Summary of Lecture 8.}

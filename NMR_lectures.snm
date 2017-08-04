@@ -33,4 +33,5 @@
 \beamer@slide {eq:H_eff}{155}
 \beamer@slide {fig:sample_coil}{158}
 \beamer@slide {precession}{160}
-\beamer@slide {eq: T2_relax}{179}
+\beamer@slide {fig:T1_vs_tc}{179}
+\beamer@slide {eq: T2_relax}{181}

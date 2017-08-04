@@ -1,4 +1,3 @@
-\beamer@endinputifotherversion {3.36pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\sectionentry {1}{Introduction. Magnetic moment in magnetic field.}{2}{Introduction. Magnetic moment in magnetic field.}{0}}
@@ -257,16 +256,24 @@
 \headcommand {\beamer@framepages {177}{177}}
 \headcommand {\slideentry {5}{1}{9}{178/178}{$T_1$ relaxation}{0}}
 \headcommand {\beamer@framepages {178}{178}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{179}{$T_2$ relaxation}}\headcommand {\beamer@subsectionpages {166}{178}}
-\headcommand {\slideentry {5}{2}{1}{179/179}{$T_2$ relaxation}{0}}
+\headcommand {\slideentry {5}{1}{10}{179/179}{$T_1$ relaxation}{0}}
 \headcommand {\beamer@framepages {179}{179}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{180}{Relaxation mechanisms.}}\headcommand {\beamer@subsectionpages {179}{179}}
-\headcommand {\slideentry {5}{3}{1}{180/180}{Relaxation mechanisms.}{0}}
+\headcommand {\slideentry {5}{1}{11}{180/180}{$T_1$ relaxation}{0}}
 \headcommand {\beamer@framepages {180}{180}}
-\headcommand {\slideentry {5}{3}{2}{181/181}{Relaxation mechanisms.}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{181}{$T_2$ relaxation}}\headcommand {\beamer@subsectionpages {166}{180}}
+\headcommand {\slideentry {5}{2}{1}{181/181}{$T_2$ relaxation}{0}}
 \headcommand {\beamer@framepages {181}{181}}
-\headcommand {\beamer@partpages {1}{181}}
-\headcommand {\beamer@subsectionpages {180}{181}}
-\headcommand {\beamer@sectionpages {165}{181}}
-\headcommand {\beamer@documentpages {181}}
-\headcommand {\def \inserttotalframenumber {111}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{182}{Relaxation mechanisms.}}\headcommand {\beamer@subsectionpages {181}{181}}
+\headcommand {\slideentry {5}{3}{1}{182/182}{Relaxation mechanisms.}{0}}
+\headcommand {\beamer@framepages {182}{182}}
+\headcommand {\slideentry {5}{3}{2}{183/183}{Relaxation mechanisms.}{0}}
+\headcommand {\beamer@framepages {183}{183}}
+\headcommand {\slideentry {5}{3}{3}{184/184}{Relaxation mechanisms.}{0}}
+\headcommand {\beamer@framepages {184}{184}}
+\headcommand {\slideentry {5}{3}{4}{185/185}{Relaxation mechanisms.}{0}}
+\headcommand {\beamer@framepages {185}{185}}
+\headcommand {\beamer@partpages {1}{185}}
+\headcommand {\beamer@subsectionpages {182}{185}}
+\headcommand {\beamer@sectionpages {165}{185}}
+\headcommand {\beamer@documentpages {185}}
+\headcommand {\def \inserttotalframenumber {115}}
