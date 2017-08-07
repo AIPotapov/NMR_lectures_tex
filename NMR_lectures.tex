@@ -1,4 +1,4 @@
-\documentclass[handout]{beamer}
+\documentclass{beamer}
 \usepackage[latin1]{inputenc}
 \usepackage{bm, array, graphicx, hyperref, amsmath, setspace, geometry, wrapfig}
 \usepackage{hanging}
@@ -24,6 +24,8 @@
 %		\frametitle{\insertsection-#1}}
 %	{\end{frame}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+
 \setbeamertemplate{footnote}{%
 	\hangpara{2em}{1}%
 	\makebox[2em][1]{\insertfootnotemark}\footnotesize\insertfootnotetext\par%
@@ -2150,6 +2152,99 @@ For all the transitions we obtain:
     	\item there is variety of relaxation mechanisms \\
         \textbf{Suggested reading:} Harris 3.14, 3.15, 3.16
     \end{itemize}
+\end{frame}
+
+\subsection{2D NMR: exchange experiment.}
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+    \begin{figure}
+    	\centering
+         \includegraphics[scale=0.4]{figures/exchange_sqns.png}
+    \end{figure}
+    \tiny{
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{  C{0.2cm}  L{5.0cm}  L{5.5cm} }
+			\hline\hline
+			(1')  &   $M_y = I_A$ \newline $M_x = 0$  &  $M_y =  I_B$ \newline
+			$M_x = 0$  \\	\hline		
+			\onslide<2->	
+						
+			(2)  &   $M_y =  I_A \cos \omega_A t_1 $ \newline
+			$M_x = I_A \sin \omega_A t_1 $   &
+			$M_y =   I_B \cos \omega_B t_1$ \newline
+			$M_x =   I_B \sin \omega_B t_1$  \\  \hline
+			
+			\onslide<3->
+			(2') &  $M_z = I_A \cos \omega_A t_1 $ \newline
+			$M_x = I_A \sin \omega_A t_1 $  &
+			$M_z =  I_B \cos \omega_B t_1$ \newline
+			$M_x =  I_B \sin \omega_B t_1$  \\ \hline
+
+			\onslide<4->
+            (3) &  $M_z = I_A (1- \delta) \cos \omega_A t_1 + I_B \delta \cos \omega_B t_1$  &
+             $M_z = I_B (1- \delta) \cos \omega_B t_1 + I_A \delta \cos \omega_A t_1$ 
+             \\ \hline
+            
+     		\onslide<5->
+            (3') &  $M_y = I_A (1- \delta) \cos \omega_A t_1 + I_B \delta \cos \omega_B t_1$  &
+            $M_y = I_B (1- \delta) \cos \omega_B t_1 + I_A \delta \cos \omega_A t_1$ 
+            \\ \hline
+            
+     		\onslide<6->            
+            (4) &  $M_y = (I_A (1- \delta) \cos \omega_A t_1 + I_B \delta \cos \omega_B t_1) \times \cos \omega_A t_2$  \newline 
+             $M_x = (I_A (1- \delta) \cos \omega_A t_1 + I_B \delta \cos \omega_B t_1) \times \sin \omega_A t_2$            
+            &
+            $M_y = (I_B (1- \delta) \cos \omega_B t_1 + I_A \delta \cos \omega_A t_1) \times \cos \omega_B t_2$  \newline 
+            $M_x = (I_B (1- \delta) \cos \omega_B t_1 + I_A \delta \cos \omega_A t_1) \times \sin \omega_B t_2$            
+            \\ \hline         
+			\hline
+		\end{tabular}	     	     
+		%\caption{Magnetic properties of some common nuclei. More can be found at \url{http://www.bruker-nmr.de/guide/eNMR/chem/NMRnuclei.htm} }
+		\label{tab: 2D exchange}		
+	\end{table}
+  }   
+
+\onslide<7->
+\normalsize{
+The detected signal is:
+\begin{align*}
+  S(t_1,t_2) &\sim M_y(t_1,t_2)  = \\
+   &=(I_A (1- \delta) \cos \omega_A t_1 + I_B \delta \cos \omega_B t_1) \times \cos \omega_A t_2 \\
+   &+ (I_B (1- \delta) \cos \omega_B t_1 + I_A \delta \cos \omega_A t_1) \times \cos \omega_B t_2  
+\end{align*}
+}
+\end{frame}
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+	\begin{align*}
+	S(t_1,t_2) &\sim M_y(t_1,t_2)  = \\
+	&=(I_A (1- \delta) \cos \omega_A t_1 + I_B \delta \cos \omega_B t_1) \times \cos \omega_A t_2 \\
+	&+ (I_B (1- \delta) \cos \omega_B t_1 + I_A \delta \cos \omega_A t_1) \times \cos \omega_B t_2  
+	\end{align*}
+  After a Fourier transform in both $t_1,t_2$ dimensions (since we detect only $M_y$, this would be a cosine FT) we peaks in a 2D ($\nu_1,\nu_2$)-plane.  
+  \begin{figure}
+  	\centering
+  	\includegraphics[scale=0.5]{figures/2D_exchange.png}
+  \end{figure}  
+\end{frame}
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+  \begin{figure}
+  	\centering
+  	\includegraphics[scale=0.4]{figures/NNdimethylacetamide.png}
+  \end{figure}
+
+
+\end{frame}
+
+\subsection{Nuclear Overhauser Effect.}
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+   The experimental scheme described above is very general and is applied in a variety of other experiments. One particular experiment is \alert{NOESY, Nuclear Overhauser Effect Spectroscopy,} which we'll consider in more detail.
+   
+   Relaxation due to dipole-dipole coupling 
+   
 \end{frame}
 
 %\begin{frame}   
