@@ -2,6 +2,7 @@
 \usepackage[latin1]{inputenc}
 \usepackage{bm, array, graphicx, hyperref, amsmath, setspace, geometry, wrapfig}
 \usepackage{hanging}
+\usepackage{textgreek}
 %\usepackage{datetime}
 \usetheme{Warsaw}
 \title{Introduction to Nuclear Magnetic Resonance Spectroscopy}
@@ -2236,15 +2237,185 @@ The detected signal is:
   	\includegraphics[scale=0.4]{figures/NNdimethylacetamide.png}
   \end{figure}
 
+The experimental scheme described above is very general and is applied in a variety of other experiments. One particular experiment is \alert{NOESY, Nuclear Overhauser Effect Spectroscopy,} which we'll consider in more detail.
 
 \end{frame}
 
-\subsection{Nuclear Overhauser Effect.}
+\subsection{Relaxation due to dipole-dipole coupling.}
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
-   The experimental scheme described above is very general and is applied in a variety of other experiments. One particular experiment is \alert{NOESY, Nuclear Overhauser Effect Spectroscopy,} which we'll consider in more detail.
+
+In this section we will consider the relaxation  (cross-relaxation)  due to time-varying dipole-dipole interaction in a heteronuclear AX dipolar coupled spin-$\dfrac{1}{2}$ system.
+
+\begin{minipage}[t]{0.65\textwidth}
+   \tiny{
+	% TABLE OF MAGNETIC PROPERTIES
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{  C{2.0cm}  C{0.3cm}  C{1.5cm}  C{1.5cm}  }
+			\hline\hline
+			Transitions & Dipolar Terms & Transition Rate & Spectral Density \\  \hline
+			$\mid \alpha \alpha \rangle \leftrightarrow \mid \beta \alpha \rangle$ \newline
+			$\mid \alpha \beta \rangle \leftrightarrow \mid \beta \beta \rangle$
+			& $C,D$ & $W_{1A}(=W_{13},W_{23})$ & $J(\omega_A)$  \\  \hline
+			
+			$\mid \alpha \alpha \rangle \leftrightarrow \mid \alpha \beta \rangle$ \newline
+			$\mid \beta \alpha \rangle \leftrightarrow \mid \beta \beta \rangle$
+			& $C,D$ & $W_{1X}(=W_{12},W_{34})$ & $J(\omega_X)$  \\  \hline
+			
+			$\mid \alpha \beta \rangle \leftrightarrow \mid \beta \alpha  \rangle$
+			& $B$ & $W_{0}(=W_{23})$ & $J(\omega_A -\omega_X)$  \\  \hline
+			
+			$\mid \alpha \alpha \rangle \leftrightarrow \mid \beta \beta  \rangle$
+			& $E,F$ & $W_{2}(=W_{14})$ & $J(\omega_A + \omega_X)$  \\  \hline
+			
+			\hline
+		\end{tabular}
+		\caption{Transitions, relevant dipolar terms, transition rates and relevant spectral density for heteronuclear dipole-dipole coupling of an AX system}
+	\end{table}
+	%%%%% END OF TABLE
+}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{figures/4_level_relaxation.png}
+	\caption{Energy levels and transition in dd-coupled AX system.}
+\end{figure}
+
+\end{minipage}
+  
    
-   Relaxation due to dipole-dipole coupling 
-   
+\end{frame}
+
+
+
+\begin{frame}[shrink=5]{\thesection.\thesubsection. \insertsubsection}
+ To find the transition rate we used time-dependent pertubation theory as before, which for example, gives for $W_0$:
+ \begin{multline}
+   W_0 = \int_{-\infty}^{\infty} \overline{ \langle \beta \alpha \mid \hat{H}_{dd}(t + \tau) \mid \alpha \beta  \rangle \langle \beta \alpha \mid  \hat{H}_dd(t)  \mid \alpha \beta \rangle} e^{-i(\omega_A - \omega_X)\tau} d\tau = \\
+   = \dfrac{1}{16} \Big( \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3}  \Big)^2 \mid  \langle  \beta \alpha  \mid  \hat{I}_{1+} \hat{I}_{2-} + \hat{I}_{1-} \hat{I}_{2+} \mid  \alpha \beta \rangle \mid^2  \langle (3 \cos^2 \theta - 1) ^2 \rangle  J(\omega_A - \omega_X)
+ \end{multline} 
+ Using $ \langle (3 \cos^2 \theta - 1) ^2 \rangle = \frac{4}{5}$, $\langle \sin^2 \theta \cos^2 \theta \rangle = \frac{2}{15}$,  and $\langle \sin^4 \theta  \theta \rangle = \frac{8}{15}$ we obtain:
+   \begin{equation}
+    	 \setlength{\jot}{5pt}
+   \begin{aligned}
+         W_0 &= \dfrac{1}{20} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 J(\omega_A - \omega_X) \\
+         W_{1A} &=\dfrac{3}{40} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 J(\omega_A) \\
+         W_{1X} &= \dfrac{3}{40} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 J(\omega_X) \\
+         W_{2}&=\dfrac{3}{10} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 J(\omega_A + \omega_X)          
+   \end{aligned}
+   \end{equation}
+\end{frame}
+
+\begin{frame}[shrink=5]{\thesection.\thesubsection. \insertsubsection}
+  To establish the relationship between transition rates and $T_1$-relaxation, we consider the "rate equations" describing populations of the different states. For example, for the population of the $\mid \alpha \alpha \rangle$ state, $n_{\alpha \alpha}$, which has an equilibrium value of  $n_{\alpha \alpha}^0$, we see that:
+  \begin{multline}
+     \dfrac{d n_{\alpha \alpha}}{d t} = -(W_{1A} + W_{1X} + W_2)(n_{\alpha \alpha} - n_{\alpha \alpha}^0) + W_2 (n_{\beta \beta} - n_{\beta \beta}^0) + \\
+     + W_{1A}(n_{\beta \alpha } - n_{\alpha \beta}^0 ) + W_{1X}(n_{\beta \alpha} - n_{\alpha \beta}^0 )
+  \end{multline}
+  Similar expressions can be derived for the rate of exchange of $n_{\beta \beta}$, $n_{\beta   \alpha}$ and $n_{\alpha \alpha}$, and writing:
+  \begin{equation}
+  \begin{array}{lcl}
+     N_A &=& (n_{\alpha \alpha}  - n_{\beta \alpha} ) + (n_{ \alpha \beta}  - n_{\beta \beta} ) \\
+     N_X &=& (n_{\alpha \alpha}  - n_{\alpha \beta } ) + (n_{  \beta \alpha}  - n_{\beta \beta} ) 
+  \end{array}
+  \end{equation}
+  to represent the population differences of the $A$ and $X$ spins, respectively, we find:
+  \begin{equation}
+    \begin{array}{lcl}
+      \dfrac{d N_A}{dt} &=& - (W_0 + 2W_{1A}+W_2)(N_A - N_A^0) - (W_2 - W_0)(N_X-N_X^0) \\
+      \dfrac{d N_X}{dt} &=& - (W_0 + 2W_{1X}+W_2)(N_X - N_X^0) - (W_2 - W_0)(N_A-N_A^0) 
+    \end{array}
+  \end{equation}
+\end{frame}
+
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+  These are known as \alert{Solomon equations}. The first term in each of these equations reflects \alert{auto-relaxation}, while the second terms relates to \alert{cross-relaxation} which links $X$-spin and $A$-spin population differences. This yields a value for the auto $T_1$-relaxation rate of the $A$ spin population due to heteronuclear dipole-dipole coupling as:
+  \begin{multline}
+   \dfrac{1}{T_{1A}} = W_0 + 2W_{1A} + W_2 = \\
+   = \dfrac{1}{20} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \big( J(\omega_A - \omega_X) + 3 J(\omega_A) + 6J(\omega_A + \omega_X) \big)
+  \end{multline}
+  which in the extreme narrowing limit (  $\mid \omega_A \pm \omega_X \mid, \omega_A, \omega_X  \ll \tau_c^{-1}$ ) becomes
+  \begin{equation}
+    \dfrac{1}{T_{1A}} = \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \tau_c
+  \end{equation}
+
+\end{frame}
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+   A similar analysis focusing on the evolution of $N_A + N_X$ gives the value of $T_1$ due to homonuclear dipole-dipole coupling as:
+ \begin{equation}
+ \dfrac{1}{T_{1}} = 2 (W_1 + W_2) = 
+ = \dfrac{3}{20} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \big( J(\omega_0) + 4 J(2 \omega_0)  \big)
+ \end{equation}
+
+
+  In the extreme narrowing limit the latter takes form:
+  \begin{equation}
+     \dfrac{1}{T_1} = \dfrac{3}{2}  \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \tau_c
+  \end{equation}
+\end{frame}
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+    The differences between the homonuclear and heteronuclear expressions arise because of the different effects of the flip-flop ($B$) term in the dipole-dipole Hamiltonian. \\
+   The cross-relaxation rate for the heteronuclear dipole-dipole coupling is:
+   \begin{equation}
+   (W_0 - W_2) = \dfrac{1}{20} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \big(  J(\omega_A - \omega_X) - 6 J( \omega_A + \omega_X )  \big)
+   \end{equation}   
+\end{frame}
+
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+The rate of change of the average magnetization of one spin as a results of cross-relaxation from a spin to which it is coupled by dipolar effects depends on the cross-relaxation rate, which for homonuclear coupling takes a values of 
+  \begin{equation}
+    W_0 - W_2 =  \dfrac{1}{20} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \big( J(0) - 6J(2 \omega_0) \big)
+  \end{equation}
+  the dependence on $r^6$ means that this rate is very strongly dependent on the spatial separation of the coupled nuclei and sp cross-relaxation effects will be dominated by nearby nuclei. This effect is exploited in the NOESY (Nuclear Overhauser Effect ) 2D-NMR spectroscopy technique, in which cross-peaks between nearby \textsuperscript{1}H sites in large molecules in solution are generated as a result of cross-relaxation and the amplitude of these peaks give an indication of the rate of cross-relaxation and thus the distance between the couples \textsuperscript{1}H nuclei. \\
+  NOESY is a key technique for the determination of protein structure, since it provides constraints on distances between \textsuperscript{1}H atoms in different regions of the molecules.
+  
+\end{frame}
+
+
+\subsection{Nuclear Overhauser effect.}
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+   Cross-relaxation via dipolar coupling provides a way of enhancing the signal from low-\textgamma nuclei and also for probing the spatial structure of large molecules (e.g. proteins). \\
+   The Nuclear Overhauser Effect describes the change in the population difference of $A$-spins produced by cross-relaxation when RF is continuously applied to the $X$-spins. Such RF irradiation equalizes he populations of $X$-spin $\mid \alpha \rangle$ and $\mid \beta \rangle$ states so $n_{\alpha \alpha} = n_{\alpha \beta}$ and $n_{\beta \alpha} = n_{\beta \beta}$, and consequently $N_X = 0$.
+\end{frame}
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+ The first Solomon equation thus becomes:
+ \begin{equation}
+         \dfrac{d N_A}{dt} = - (W_0 + 2W_{1A}+W_2)(N_A - N_A^0) + (W_2 - W_0)N_X^0
+ \end{equation}
+ After a long period of irradiation, a steady state is then reached with $\dfrac{d N_A}{dt} =0$ giving
+ \begin{equation}
+   -(W_0 + 2 W_{1A} + W_2)(N_A - N_A^0)
+ \end{equation}
+ which yields
+ \begin{equation}
+    \dfrac{N_A}{N_A^0} = 1 + \dfrac{N_X^0}{N_A^0} \Big(  \dfrac{W_2 - W_0}{W_0 + 2 W_{1A} + W_2} \Big)
+ \end{equation}
+In the extreme narrowing limit this becomes:
+  \begin{equation}
+    \dfrac{N_A}{N_A^0} = 1  + \dfrac{N_X^0}{2 N_A^0}
+  \end{equation}
+
+\end{frame}
+
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+   Since the equilibrium population differences scale with the magnetogyric ratios, $\dfrac{N_X^0}{N_A^0} = \dfrac{\gamma_X}{\gamma_A}$, this gives:
+   \begin{equation}
+      \dfrac{N_A}{N_B} = 1 + \dfrac{\gamma_X}{2 \gamma_A}
+   \end{equation}
+   which produces an enhancement of the $A$-spin population difference when $\gamma_X > 2 \gamma_A$. \\
+   Appying continuous RF to \textsuperscript{1}H ($X$) therefore increases the population difference of dipole-coupled, \textsuperscript{13}C ($A$) spins in small molecules by a factor of $1 + \dfrac{\gamma_{1H}}{2 \gamma_{13C}} \sim 2.998$, which can be translated into a similar increase in the \textsuperscript{13}C NMR signal strength. For larger molecules, with larger values of $\tau_c$, the enhancement is smaller and can in fact be less than 1. In the case of nuclei with negative \textgamma-values (e.g. \textsuperscript{15}N), the sign of the magnetization/NMR signal/peak can be made negative by the NOE.
 \end{frame}
 
 %\begin{frame}   

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.17)  7 AUG 2017 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.17)  9 AUG 2017 15:43
 entering extended mode
 **./NMR_lectures.tex
 (NMR_lectures.tex
@@ -713,6 +713,21 @@ Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
 \h@ngcolonwd=\skip65
 \h@ngscolonwd=\skip66
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textgreek\textgreek.sty"
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\greek-fontenc\lgrenc.def"
+File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\greek-fontenc\greek-fontenc.def"
+File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
+
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\themes\theme\beamerthemeWa
 rsaw.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\themes\inner\beamerinnerth
@@ -746,20 +761,26 @@ LaTeX Warning: Label `precession' multiply defined.
 )
 \openout1 = `NMR_lectures.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 53.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -821,7 +842,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 52.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -831,68 +852,68 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (NMR_lectures.out) (NMR_lectures.out)
 \@outlinefile=\write5
 \openout5 = `NMR_lectures.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 52.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 53.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 52.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 5
-2.
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 
-52.
+53.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 52.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 52.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 52.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 52.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 52.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 52.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 52.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 52.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 52.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 52.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 52.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 52.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 52.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 52.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 52.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-2.
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-52.
+53.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 52.
+ut line 53.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translato
 r-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -918,12 +939,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 52.
+LaTeX Info: Redefining \includegraphics on input line 53.
 
 (NMR_lectures.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 56.
+(Font)              size <5> substituted on input line 57.
 
 [1
 
@@ -939,78 +960,78 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [6
 
 ]
-<figures/wine_spectrum.jpg, id=346, 722.7pt x 542.025pt>
+<figures/wine_spectrum.jpg, id=354, 722.7pt x 542.025pt>
 File: figures/wine_spectrum.jpg Graphic file (type jpg)
 
 <use figures/wine_spectrum.jpg>
-Package pdftex.def Info: figures/wine_spectrum.jpg used on input line 98.
+Package pdftex.def Info: figures/wine_spectrum.jpg used on input line 99.
 (pdftex.def)             Requested size: 138.2795pt x 103.70535pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 98.
+LaTeX Font Info:    Try loading font information for U+msa on input line 99.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 98.
+LaTeX Font Info:    Try loading font information for U+msb on input line 99.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 98.
+line 99.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd
 "
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) <figures/prion.jpg, id=349, 1284.8pt x 1055.945pt>
+) <figures/prion.jpg, id=357, 1284.8pt x 1055.945pt>
 File: figures/prion.jpg Graphic file (type jpg)
  <use figures/prion.jpg>
-Package pdftex.def Info: figures/prion.jpg used on input line 98.
+Package pdftex.def Info: figures/prion.jpg used on input line 99.
 (pdftex.def)             Requested size: 138.2795pt x 113.64076pt.
 
-Underfull \hbox (badness 7030) in paragraph at lines 98--98
+Underfull \hbox (badness 7030) in paragraph at lines 99--99
 []\OT1/cmss/m/n/8 Fig.2: NMR-derived struc-ture of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmss/m/n/8 a prion []$\OT1/cmtt/m/n/8 http : / / www . pnas . org /
  []
 
 [7
 
  <./figures/wine_spectrum.jpg> <./figures/prion.jpg>]
-<figures/well_logging1.jpg, id=385, 147.46986pt x 415.0642pt>
+<figures/well_logging1.jpg, id=393, 147.46986pt x 415.0642pt>
 File: figures/well_logging1.jpg Graphic file (type jpg)
 
 <use figures/well_logging1.jpg>
-Package pdftex.def Info: figures/well_logging1.jpg used on input line 131.
+Package pdftex.def Info: figures/well_logging1.jpg used on input line 132.
 (pdftex.def)             Requested size: 46.0916pt x 129.72623pt.
 
-<figures/well_logging2.png, id=386, 198.7425pt x 326.21875pt>
+<figures/well_logging2.png, id=394, 198.7425pt x 326.21875pt>
 File: figures/well_logging2.png Graphic file (type png)
 
 <use figures/well_logging2.png>
-Package pdftex.def Info: figures/well_logging2.png used on input line 131.
+Package pdftex.def Info: figures/well_logging2.png used on input line 132.
 (pdftex.def)             Requested size: 46.0916pt x 75.65591pt.
 
-<figures/well_logging3.png, id=388, 361.35pt x 864.22874pt>
+<figures/well_logging3.png, id=396, 361.35pt x 864.22874pt>
 File: figures/well_logging3.png Graphic file (type png)
 
 <use figures/well_logging3.png>
-Package pdftex.def Info: figures/well_logging3.png used on input line 131.
+Package pdftex.def Info: figures/well_logging3.png used on input line 132.
 (pdftex.def)             Requested size: 46.0916pt x 110.23056pt.
  [8
 
  <./figures/well_logging1.jpg> <./figures/well_logging2.png> <./figures/well_lo
 gging3.png>]
-<figures/mri.jpeg, id=418, 1499.6025pt x 1220.56pt>
+<figures/mri.jpeg, id=426, 1499.6025pt x 1220.56pt>
 File: figures/mri.jpeg Graphic file (type jpg)
  <use figures/mri.jpeg>
-Package pdftex.def Info: figures/mri.jpeg used on input line 143.
+Package pdftex.def Info: figures/mri.jpeg used on input line 144.
 (pdftex.def)             Requested size: 215.10196pt x 175.06769pt.
 
-Overfull \vbox (7.89615pt too high) detected at line 143
+Overfull \vbox (7.89615pt too high) detected at line 144
  []
 
 [9
@@ -1018,28 +1039,28 @@ Overfull \vbox (7.89615pt too high) detected at line 143
  <./figures/mri.jpeg>]
 
 Class beamer Warning: Frame text is shrunk by a factor of 8.20618 percent inste
-ad of 5 percent on input line 176.
+ad of 5 percent on input line 177.
 
 [10
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 8.20618 percent inste
-ad of 5 percent on input line 176.
+ad of 5 percent on input line 177.
 
 [11
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 8.20618 percent inste
-ad of 5 percent on input line 176.
+ad of 5 percent on input line 177.
 
 [12
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 8.20618 percent inste
-ad of 5 percent on input line 176.
+ad of 5 percent on input line 177.
 
 [13
 
@@ -1049,11 +1070,11 @@ ad of 5 percent on input line 176.
 
 ] [16
 
-] <figures/precession.png, id=642, 170.0754pt x 205.2468pt>
+] <figures/precession.png, id=650, 170.0754pt x 205.2468pt>
 File: figures/precession.png Graphic file (type png)
 
 <use figures/precession.png>
-Package pdftex.def Info: figures/precession.png used on input line 232.
+Package pdftex.def Info: figures/precession.png used on input line 233.
 (pdftex.def)             Requested size: 86.03946pt x 103.83514pt.
  [17
 
@@ -1061,7 +1082,7 @@ Package pdftex.def Info: figures/precession.png used on input line 232.
 File: figures/precession.png Graphic file (type png)
 
 <use figures/precession.png>
-Package pdftex.def Info: figures/precession.png used on input line 232.
+Package pdftex.def Info: figures/precession.png used on input line 233.
 (pdftex.def)             Requested size: 86.03946pt x 103.83514pt.
  [18
 
@@ -1089,75 +1110,75 @@ Package pdftex.def Info: figures/precession.png used on input line 232.
 ] [29
 
 ]
-Overfull \hbox (7.16524pt too wide) in paragraph at lines 352--352
+Overfull \hbox (7.16524pt too wide) in paragraph at lines 353--353
  []|\OT1/cmss/m/n/10.95 Nucleus| 
  []
 
 
-Overfull \hbox (6.00941pt too wide) in paragraph at lines 352--352
+Overfull \hbox (6.00941pt too wide) in paragraph at lines 353--353
  []|\OT1/cmss/m/n/10.95 Nuclear 
  []
 
 
-Overfull \hbox (8.78488pt too wide) in paragraph at lines 352--352
+Overfull \hbox (8.78488pt too wide) in paragraph at lines 353--353
  [] 
  []
 
 
-Overfull \vbox (1.47937pt too high) detected at line 352
+Overfull \vbox (1.47937pt too high) detected at line 353
  []
 
 [30
 
 ]
-Overfull \hbox (7.16524pt too wide) in paragraph at lines 352--352
+Overfull \hbox (7.16524pt too wide) in paragraph at lines 353--353
  []|\OT1/cmss/m/n/10.95 Nucleus| 
  []
 
 
-Overfull \hbox (6.00941pt too wide) in paragraph at lines 352--352
+Overfull \hbox (6.00941pt too wide) in paragraph at lines 353--353
  []|\OT1/cmss/m/n/10.95 Nuclear 
  []
 
 
-Overfull \hbox (8.78488pt too wide) in paragraph at lines 352--352
+Overfull \hbox (8.78488pt too wide) in paragraph at lines 353--353
  [] 
  []
 
 
-Overfull \vbox (1.47937pt too high) detected at line 352
+Overfull \vbox (1.47937pt too high) detected at line 353
  []
 
 [31
 
 ]
-Overfull \hbox (7.16524pt too wide) in paragraph at lines 352--352
+Overfull \hbox (7.16524pt too wide) in paragraph at lines 353--353
  []|\OT1/cmss/m/n/10.95 Nucleus| 
  []
 
 
-Overfull \hbox (6.00941pt too wide) in paragraph at lines 352--352
+Overfull \hbox (6.00941pt too wide) in paragraph at lines 353--353
  []|\OT1/cmss/m/n/10.95 Nuclear 
  []
 
 
-Overfull \hbox (8.78488pt too wide) in paragraph at lines 352--352
+Overfull \hbox (8.78488pt too wide) in paragraph at lines 353--353
  [] 
  []
 
 
-Overfull \vbox (1.47937pt too high) detected at line 352
+Overfull \vbox (1.47937pt too high) detected at line 353
  []
 
 [32
 
 ] [33
 
-] <figures/two-level_system.png, id=1097, 446.6286pt x 298.2342pt>
+] <figures/two-level_system.png, id=1105, 446.6286pt x 298.2342pt>
 File: figures/two-level_system.png Graphic file (type png)
 
 <use figures/two-level_system.png>
-Package pdftex.def Info: figures/two-level_system.png used on input line 384.
+Package pdftex.def Info: figures/two-level_system.png used on input line 385.
 (pdftex.def)             Requested size: 153.64493pt x 102.59511pt.
  [34
 
@@ -1165,57 +1186,57 @@ Package pdftex.def Info: figures/two-level_system.png used on input line 384.
 File: figures/two-level_system.png Graphic file (type png)
 
 <use figures/two-level_system.png>
-Package pdftex.def Info: figures/two-level_system.png used on input line 384.
+Package pdftex.def Info: figures/two-level_system.png used on input line 385.
 (pdftex.def)             Requested size: 153.64493pt x 102.59511pt.
  [35
 
 ]
 File: figures/two-level_system.png Graphic file (type png)
  <use figures/two-level_system.png>
-Package pdftex.def Info: figures/two-level_system.png used on input line 384.
+Package pdftex.def Info: figures/two-level_system.png used on input line 385.
 (pdftex.def)             Requested size: 153.64493pt x 102.59511pt.
 
 [36
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 [][]\OT1/cmss/m/n/9 More can be found in Bruker Al-manac at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \OT1/cmss/m/n/9 https://lsa.umich.edu/content/dam/chem-assets/chem-
  []
 
 
-Overfull \hbox (7.16524pt too wide) in paragraph at lines 413--413
+Overfull \hbox (7.16524pt too wide) in paragraph at lines 414--414
  []|\OT1/cmss/m/n/10.95 Nucleus| 
  []
 
 
-Overfull \hbox (6.00941pt too wide) in paragraph at lines 413--413
+Overfull \hbox (6.00941pt too wide) in paragraph at lines 414--414
  []|\OT1/cmss/m/n/10.95 Nuclear 
  []
 
 [37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 [][]\OT1/cmss/m/n/9 More can be found in Bruker Al-manac at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \OT1/cmss/m/n/9 https://lsa.umich.edu/content/dam/chem-assets/chem-
  []
 
 
-Overfull \hbox (7.16524pt too wide) in paragraph at lines 413--413
+Overfull \hbox (7.16524pt too wide) in paragraph at lines 414--414
  []|\OT1/cmss/m/n/10.95 Nucleus| 
  []
 
 
-Overfull \hbox (6.00941pt too wide) in paragraph at lines 413--413
+Overfull \hbox (6.00941pt too wide) in paragraph at lines 414--414
  []|\OT1/cmss/m/n/10.95 Nuclear 
  []
 
@@ -1226,7 +1247,7 @@ Overfull \hbox (6.00941pt too wide) in paragraph at lines 413--413
 ] [40
 
 ]
-Overfull \vbox (6.85196pt too high) detected at line 452
+Overfull \vbox (6.85196pt too high) detected at line 453
  []
 
 [41
@@ -1234,36 +1255,36 @@ Overfull \vbox (6.85196pt too high) detected at line 452
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 15.46173 percent inst
-ead of 5 percent on input line 478.
+ead of 5 percent on input line 479.
 
 [42
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 15.46173 percent inst
-ead of 5 percent on input line 478.
+ead of 5 percent on input line 479.
 
 [43
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 6.8161 percent instea
-d of 5 percent on input line 478.
+d of 5 percent on input line 479.
 
 [44
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 6.8161 percent instea
-d of 5 percent on input line 478.
+d of 5 percent on input line 479.
 
 [45
 
-] <figures/two-level_excite.png, id=1420, 445.1832pt x 298.2342pt>
+] <figures/two-level_excite.png, id=1428, 445.1832pt x 298.2342pt>
 File: figures/two-level_excite.png Graphic file (type png)
 
 <use figures/two-level_excite.png>
-Package pdftex.def Info: figures/two-level_excite.png used on input line 494.
+Package pdftex.def Info: figures/two-level_excite.png used on input line 495.
 (pdftex.def)             Requested size: 153.64493pt x 102.9273pt.
  [46
 
@@ -1271,25 +1292,25 @@ Package pdftex.def Info: figures/two-level_excite.png used on input line 494.
 File: figures/two-level_excite.png Graphic file (type png)
 
 <use figures/two-level_excite.png>
-Package pdftex.def Info: figures/two-level_excite.png used on input line 494.
+Package pdftex.def Info: figures/two-level_excite.png used on input line 495.
 (pdftex.def)             Requested size: 153.64493pt x 102.9273pt.
  [47
 
 ]
-<figures/two_level_population.png, id=1476, 306.9066pt x 232.7094pt>
+<figures/two_level_population.png, id=1484, 306.9066pt x 232.7094pt>
 File: figures/two_level_population.png Graphic file (type png)
 
 <use figures/two_level_population.png>
-Package pdftex.def Info: figures/two_level_population.png used on input line 50
-9.
+Package pdftex.def Info: figures/two_level_population.png used on input line 51
+0.
 (pdftex.def)             Requested size: 92.1879pt x 69.90211pt.
  [48
 
  <./figures/two_level_population.png>]
 File: figures/two_level_population.png Graphic file (type png)
  <use figures/two_level_population.png>
-Package pdftex.def Info: figures/two_level_population.png used on input line 50
-9.
+Package pdftex.def Info: figures/two_level_population.png used on input line 51
+0.
 (pdftex.def)             Requested size: 92.1879pt x 69.90211pt.
  [49
 
@@ -1307,11 +1328,11 @@ Package pdftex.def Info: figures/two_level_population.png used on input line 50
 (NMR_lectures.toc) [55
 
 ]
-<figures/diamagnetic_term.png, id=1704, 245.718pt x 246.6816pt>
+<figures/diamagnetic_term.png, id=1712, 245.718pt x 246.6816pt>
 File: figures/diamagnetic_term.png Graphic file (type png)
 
 <use figures/diamagnetic_term.png>
-Package pdftex.def Info: figures/diamagnetic_term.png used on input line 591.
+Package pdftex.def Info: figures/diamagnetic_term.png used on input line 592.
 (pdftex.def)             Requested size: 110.62401pt x 111.05838pt.
  [56
 
@@ -1319,51 +1340,51 @@ Package pdftex.def Info: figures/diamagnetic_term.png used on input line 591.
 File: figures/diamagnetic_term.png Graphic file (type png)
 
 <use figures/diamagnetic_term.png>
-Package pdftex.def Info: figures/diamagnetic_term.png used on input line 591.
+Package pdftex.def Info: figures/diamagnetic_term.png used on input line 592.
 (pdftex.def)             Requested size: 110.62401pt x 111.05838pt.
  [57
 
 ]
-<figures/benzene1.png, id=1763, 516.4896pt x 159.9576pt>
+<figures/benzene1.png, id=1771, 516.4896pt x 159.9576pt>
 File: figures/benzene1.png Graphic file (type png)
 
 <use figures/benzene1.png>
-Package pdftex.def Info: figures/benzene1.png used on input line 651.
+Package pdftex.def Info: figures/benzene1.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 28.54948pt.
 
-<figures/benzene2.png, id=1764, 468.7914pt x 384.9582pt>
+<figures/benzene2.png, id=1772, 468.7914pt x 384.9582pt>
 File: figures/benzene2.png Graphic file (type png)
 
 <use figures/benzene2.png>
-Package pdftex.def Info: figures/benzene2.png used on input line 651.
+Package pdftex.def Info: figures/benzene2.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 75.698pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 651--651
+Underfull \hbox (badness 1622) in paragraph at lines 652--652
 []\OT1/cmss/m/n/8 Fig.5: (top) Schematic
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 rep-sre-sen-ta-tion of elec-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 651--651
+Underfull \hbox (badness 1616) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 tron or-bitals in a ben-
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 lo-cal fields in a ben-
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 651--651
+Underfull \hbox (badness 2111) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 zene molecule pro-duced
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 651--651
+Underfull \hbox (badness 1270) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 by elec-tron cur-rents in-
  []
 
@@ -1373,39 +1394,39 @@ Underfull \hbox (badness 1270) in paragraph at lines 651--651
 File: figures/benzene1.png Graphic file (type png)
 
 <use figures/benzene1.png>
-Package pdftex.def Info: figures/benzene1.png used on input line 651.
+Package pdftex.def Info: figures/benzene1.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 28.54948pt.
 File: figures/benzene2.png Graphic file (type png)
  <use figures/benzene2.png>
-Package pdftex.def Info: figures/benzene2.png used on input line 651.
+Package pdftex.def Info: figures/benzene2.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 75.698pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 651--651
+Underfull \hbox (badness 1622) in paragraph at lines 652--652
 []\OT1/cmss/m/n/8 Fig.5: (top) Schematic
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 rep-sre-sen-ta-tion of elec-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 651--651
+Underfull \hbox (badness 1616) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 tron or-bitals in a ben-
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 lo-cal fields in a ben-
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 651--651
+Underfull \hbox (badness 2111) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 zene molecule pro-duced
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 651--651
+Underfull \hbox (badness 1270) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 by elec-tron cur-rents in-
  []
 
@@ -1414,39 +1435,39 @@ Underfull \hbox (badness 1270) in paragraph at lines 651--651
 ]
 File: figures/benzene1.png Graphic file (type png)
  <use figures/benzene1.png>
-Package pdftex.def Info: figures/benzene1.png used on input line 651.
+Package pdftex.def Info: figures/benzene1.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 28.54948pt.
 File: figures/benzene2.png Graphic file (type png)
  <use figures/benzene2.png>
-Package pdftex.def Info: figures/benzene2.png used on input line 651.
+Package pdftex.def Info: figures/benzene2.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 75.698pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 651--651
+Underfull \hbox (badness 1622) in paragraph at lines 652--652
 []\OT1/cmss/m/n/8 Fig.5: (top) Schematic
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 rep-sre-sen-ta-tion of elec-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 651--651
+Underfull \hbox (badness 1616) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 tron or-bitals in a ben-
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 lo-cal fields in a ben-
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 651--651
+Underfull \hbox (badness 2111) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 zene molecule pro-duced
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 651--651
+Underfull \hbox (badness 1270) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 by elec-tron cur-rents in-
  []
 
@@ -1455,39 +1476,39 @@ Underfull \hbox (badness 1270) in paragraph at lines 651--651
 ]
 File: figures/benzene1.png Graphic file (type png)
  <use figures/benzene1.png>
-Package pdftex.def Info: figures/benzene1.png used on input line 651.
+Package pdftex.def Info: figures/benzene1.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 28.54948pt.
 File: figures/benzene2.png Graphic file (type png)
  <use figures/benzene2.png>
-Package pdftex.def Info: figures/benzene2.png used on input line 651.
+Package pdftex.def Info: figures/benzene2.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 75.698pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 651--651
+Underfull \hbox (badness 1622) in paragraph at lines 652--652
 []\OT1/cmss/m/n/8 Fig.5: (top) Schematic
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 rep-sre-sen-ta-tion of elec-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 651--651
+Underfull \hbox (badness 1616) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 tron or-bitals in a ben-
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 lo-cal fields in a ben-
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 651--651
+Underfull \hbox (badness 2111) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 zene molecule pro-duced
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 651--651
+Underfull \hbox (badness 1270) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 by elec-tron cur-rents in-
  []
 
@@ -1496,70 +1517,70 @@ Underfull \hbox (badness 1270) in paragraph at lines 651--651
 ]
 File: figures/benzene1.png Graphic file (type png)
  <use figures/benzene1.png>
-Package pdftex.def Info: figures/benzene1.png used on input line 651.
+Package pdftex.def Info: figures/benzene1.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 28.54948pt.
 File: figures/benzene2.png Graphic file (type png)
  <use figures/benzene2.png>
-Package pdftex.def Info: figures/benzene2.png used on input line 651.
+Package pdftex.def Info: figures/benzene2.png used on input line 652.
 (pdftex.def)             Requested size: 92.1879pt x 75.698pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 651--651
+Underfull \hbox (badness 1622) in paragraph at lines 652--652
 []\OT1/cmss/m/n/8 Fig.5: (top) Schematic
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 rep-sre-sen-ta-tion of elec-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 651--651
+Underfull \hbox (badness 1616) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 tron or-bitals in a ben-
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 651--651
+Underfull \hbox (badness 4595) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 lo-cal fields in a ben-
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 651--651
+Underfull \hbox (badness 2111) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 zene molecule pro-duced
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 651--651
+Underfull \hbox (badness 1270) in paragraph at lines 652--652
 \OT1/cmss/m/n/8 by elec-tron cur-rents in-
  []
 
 [62
 
-] <figures/tetramethylsilane.png, id=1900, 99.31142pt x 76.3517pt>
+] <figures/tetramethylsilane.png, id=1908, 99.31142pt x 76.3517pt>
 File: figures/tetramethylsilane.png Graphic file (type png)
 
 <use figures/tetramethylsilane.png>
-Package pdftex.def Info: figures/tetramethylsilane.png used on input line 681.
+Package pdftex.def Info: figures/tetramethylsilane.png used on input line 682.
 (pdftex.def)             Requested size: 49.65558pt x 38.17575pt.
 
-Overfull \hbox (3.56398pt too wide) in paragraph at lines 681--681
+Overfull \hbox (3.56398pt too wide) in paragraph at lines 682--682
  [][] 
  []
 
-<figures/proton_chemical_shifts.png, id=1901, 418.13358pt x 264.99pt>
+<figures/proton_chemical_shifts.png, id=1909, 418.13358pt x 264.99pt>
 File: figures/proton_chemical_shifts.png Graphic file (type png)
 
 <use figures/proton_chemical_shifts.png>
 Package pdftex.def Info: figures/proton_chemical_shifts.png used on input line 
-681.
+682.
 (pdftex.def)             Requested size: 153.64493pt x 97.3695pt.
 
-Underfull \hbox (badness 1077) in paragraph at lines 681--681
+Underfull \hbox (badness 1077) in paragraph at lines 682--682
 []\OT1/cmss/m/n/8 Fig.6: Chem-i-cal shifts in var-i-ous or-ganic molecules Sour
 ce: []$\OT1/cmtt/m/n/8 http : / / orgchem .
  []
 
 
-Overfull \vbox (2.89871pt too high) detected at line 681
+Overfull \vbox (2.89871pt too high) detected at line 682
  []
 
 [63
@@ -1568,48 +1589,48 @@ Overfull \vbox (2.89871pt too high) detected at line 681
 File: figures/tetramethylsilane.png Graphic file (type png)
 
 <use figures/tetramethylsilane.png>
-Package pdftex.def Info: figures/tetramethylsilane.png used on input line 681.
+Package pdftex.def Info: figures/tetramethylsilane.png used on input line 682.
 (pdftex.def)             Requested size: 49.65558pt x 38.17575pt.
 
-Overfull \hbox (3.56398pt too wide) in paragraph at lines 681--681
+Overfull \hbox (3.56398pt too wide) in paragraph at lines 682--682
  [][] 
  []
 
 File: figures/proton_chemical_shifts.png Graphic file (type png)
 <use figures/proton_chemical_shifts.png>
 Package pdftex.def Info: figures/proton_chemical_shifts.png used on input line 
-681.
+682.
 (pdftex.def)             Requested size: 153.64493pt x 97.3695pt.
 
-Underfull \hbox (badness 1077) in paragraph at lines 681--681
+Underfull \hbox (badness 1077) in paragraph at lines 682--682
 []\OT1/cmss/m/n/8 Fig.6: Chem-i-cal shifts in var-i-ous or-ganic molecules Sour
 ce: []$\OT1/cmtt/m/n/8 http : / / orgchem .
  []
 
 
-Overfull \vbox (2.89871pt too high) detected at line 681
+Overfull \vbox (2.89871pt too high) detected at line 682
  []
 
 [64
 
-] <figures/methyl_acetate.png, id=1965, 410.53375pt x 238.8925pt>
+] <figures/methyl_acetate.png, id=1973, 410.53375pt x 238.8925pt>
 File: figures/methyl_acetate.png Graphic file (type png)
 
 <use figures/methyl_acetate.png>
-Package pdftex.def Info: figures/methyl_acetate.png used on input line 705.
+Package pdftex.def Info: figures/methyl_acetate.png used on input line 706.
 (pdftex.def)             Requested size: 122.91406pt x 71.52249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\OT1/cmss/m/n/8 Fig.7: $[]$H spec-trum of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 \OT1/cmss/m/n/8 methyl ac-etate. Source:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []$\OT1/cmtt/m/n/8 http : / / chemwiki . ucdavies .
  []
 
@@ -1618,20 +1639,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--705
  <./figures/methyl_acetate.png>]
 File: figures/methyl_acetate.png Graphic file (type png)
  <use figures/methyl_acetate.png>
-Package pdftex.def Info: figures/methyl_acetate.png used on input line 705.
+Package pdftex.def Info: figures/methyl_acetate.png used on input line 706.
 (pdftex.def)             Requested size: 122.91406pt x 71.52249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\OT1/cmss/m/n/8 Fig.7: $[]$H spec-trum of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 \OT1/cmss/m/n/8 methyl ac-etate. Source:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []$\OT1/cmtt/m/n/8 http : / / chemwiki . ucdavies .
  []
 
@@ -1640,20 +1661,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--705
 ]
 File: figures/methyl_acetate.png Graphic file (type png)
  <use figures/methyl_acetate.png>
-Package pdftex.def Info: figures/methyl_acetate.png used on input line 705.
+Package pdftex.def Info: figures/methyl_acetate.png used on input line 706.
 (pdftex.def)             Requested size: 122.91406pt x 71.52249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\OT1/cmss/m/n/8 Fig.7: $[]$H spec-trum of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 \OT1/cmss/m/n/8 methyl ac-etate. Source:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []$\OT1/cmtt/m/n/8 http : / / chemwiki . ucdavies .
  []
 
@@ -1662,20 +1683,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--705
 ]
 File: figures/methyl_acetate.png Graphic file (type png)
  <use figures/methyl_acetate.png>
-Package pdftex.def Info: figures/methyl_acetate.png used on input line 705.
+Package pdftex.def Info: figures/methyl_acetate.png used on input line 706.
 (pdftex.def)             Requested size: 122.91406pt x 71.52249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\OT1/cmss/m/n/8 Fig.7: $[]$H spec-trum of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 \OT1/cmss/m/n/8 methyl ac-etate. Source:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []$\OT1/cmtt/m/n/8 http : / / chemwiki . ucdavies .
  []
 
@@ -1684,43 +1705,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--705
 ]
 File: figures/methyl_acetate.png Graphic file (type png)
  <use figures/methyl_acetate.png>
-Package pdftex.def Info: figures/methyl_acetate.png used on input line 705.
+Package pdftex.def Info: figures/methyl_acetate.png used on input line 706.
 (pdftex.def)             Requested size: 122.91406pt x 71.52249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\OT1/cmss/m/n/8 Fig.7: $[]$H spec-trum of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 \OT1/cmss/m/n/8 methyl ac-etate. Source:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []$\OT1/cmtt/m/n/8 http : / / chemwiki . ucdavies .
  []
 
 [69
 
-] <figures/carbon_chemical_shifts.png, id=2112, 688.5725pt x 211.79124pt>
+] <figures/carbon_chemical_shifts.png, id=2120, 688.5725pt x 211.79124pt>
 File: figures/carbon_chemical_shifts.png Graphic file (type png)
 
 <use figures/carbon_chemical_shifts.png>
 Package pdftex.def Info: figures/carbon_chemical_shifts.png used on input line 
-713.
+714.
 (pdftex.def)             Requested size: 307.28987pt x 94.51665pt.
  [70
 
- <./figures/carbon_chemical_shifts.png>] <figures/J-coupling.png, id=2140, 436.
+ <./figures/carbon_chemical_shifts.png>] <figures/J-coupling.png, id=2148, 436.
 9926pt x 185.0112pt>
 File: figures/J-coupling.png Graphic file (type png)
 
 <use figures/J-coupling.png>
-Package pdftex.def Info: figures/J-coupling.png used on input line 726.
+Package pdftex.def Info: figures/J-coupling.png used on input line 727.
 (pdftex.def)             Requested size: 218.49576pt x 92.50537pt.
 
-Overfull \vbox (4.98111pt too high) detected at line 726
+Overfull \vbox (4.98111pt too high) detected at line 727
  []
 
 [71
@@ -1738,19 +1759,19 @@ Overfull \vbox (4.98111pt too high) detected at line 726
 ] [77
 
 ]
-<figures/AXsystem.png, id=2325, 840.741pt x 628.749pt>
+<figures/AXsystem.png, id=2333, 840.741pt x 628.749pt>
 File: figures/AXsystem.png Graphic file (type png)
 
 <use figures/AXsystem.png>
-Package pdftex.def Info: figures/AXsystem.png used on input line 810.
+Package pdftex.def Info: figures/AXsystem.png used on input line 811.
 (pdftex.def)             Requested size: 245.83282pt x 183.83878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig1}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.810 \end{frame}
+l.811 \end{frame}
                  
-Overfull \vbox (9.9228pt too high) detected at line 810
+Overfull \vbox (9.9228pt too high) detected at line 811
  []
 
 [78
@@ -1758,35 +1779,35 @@ Overfull \vbox (9.9228pt too high) detected at line 810
  <./figures/AXsystem.png>] [79
 
 ]
-<figures/nmracetaldehyde.png, id=2380, 970.3452pt x 443.7378pt>
+<figures/nmracetaldehyde.png, id=2388, 970.3452pt x 443.7378pt>
 File: figures/nmracetaldehyde.png Graphic file (type png)
 
 <use figures/nmracetaldehyde.png>
-Package pdftex.def Info: figures/nmracetaldehyde.png used on input line 853.
+Package pdftex.def Info: figures/nmracetaldehyde.png used on input line 854.
 (pdftex.def)             Requested size: 194.0656pt x 88.74599pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig1}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.853 \end{frame}
+l.854 \end{frame}
                   [80
 
  <./figures/nmracetaldehyde.png>]
-<figures/ethyl_alcohol.jpg, id=2410, 200.75pt x 200.75pt>
+<figures/ethyl_alcohol.jpg, id=2418, 200.75pt x 200.75pt>
 File: figures/ethyl_alcohol.jpg Graphic file (type jpg)
 
 <use figures/ethyl_alcohol.jpg>
-Package pdftex.def Info: figures/ethyl_alcohol.jpg used on input line 870.
+Package pdftex.def Info: figures/ethyl_alcohol.jpg used on input line 871.
 (pdftex.def)             Requested size: 40.14928pt x 40.14928pt.
 
-<figures/ethyl_alcohol_nmr.png, id=2411, 622.325pt x 456.70625pt>
+<figures/ethyl_alcohol_nmr.png, id=2419, 622.325pt x 456.70625pt>
 File: figures/ethyl_alcohol_nmr.png Graphic file (type png)
 
 <use figures/ethyl_alcohol_nmr.png>
-Package pdftex.def Info: figures/ethyl_alcohol_nmr.png used on input line 870.
+Package pdftex.def Info: figures/ethyl_alcohol_nmr.png used on input line 871.
 (pdftex.def)             Requested size: 124.46278pt x 91.33963pt.
 
-Overfull \vbox (8.14804pt too high) detected at line 870
+Overfull \vbox (8.14804pt too high) detected at line 871
  []
 
 [81
@@ -1795,38 +1816,38 @@ Overfull \vbox (8.14804pt too high) detected at line 870
 File: figures/ethyl_alcohol.jpg Graphic file (type jpg)
 
 <use figures/ethyl_alcohol.jpg>
-Package pdftex.def Info: figures/ethyl_alcohol.jpg used on input line 870.
+Package pdftex.def Info: figures/ethyl_alcohol.jpg used on input line 871.
 (pdftex.def)             Requested size: 40.14928pt x 40.14928pt.
 File: figures/ethyl_alcohol_nmr.png Graphic file (type png)
  <use figures/ethyl_alcohol_nmr.png>
-Package pdftex.def Info: figures/ethyl_alcohol_nmr.png used on input line 870.
+Package pdftex.def Info: figures/ethyl_alcohol_nmr.png used on input line 871.
 (pdftex.def)             Requested size: 124.46278pt x 91.33963pt.
 
-Overfull \vbox (8.14804pt too high) detected at line 870
+Overfull \vbox (8.14804pt too high) detected at line 871
  []
 
 [82
 
-] <figures/j-couplings.png, id=2463, 385.44pt x 166.6225pt>
+] <figures/j-couplings.png, id=2471, 385.44pt x 166.6225pt>
 File: figures/j-couplings.png Graphic file (type png)
 
 <use figures/j-couplings.png>
-Package pdftex.def Info: figures/j-couplings.png used on input line 902.
+Package pdftex.def Info: figures/j-couplings.png used on input line 903.
 (pdftex.def)             Requested size: 154.17326pt x 66.64781pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--902
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
 []\OT1/cmss/m/n/8 Fig.13: Typ-i-cal J-couplings []$\OT1/cmtt/m/n/8 https : / / 
 chem . libretexts . org / Textbook _ Maps /
  []
 
-<figures/C2H2Cl4.png, id=2466, 820.9872pt x 399.4122pt>
+<figures/C2H2Cl4.png, id=2474, 820.9872pt x 399.4122pt>
 File: figures/C2H2Cl4.png Graphic file (type png)
 
 <use figures/C2H2Cl4.png>
-Package pdftex.def Info: figures/C2H2Cl4.png used on input line 902.
+Package pdftex.def Info: figures/C2H2Cl4.png used on input line 903.
 (pdftex.def)             Requested size: 98.5142pt x 47.92738pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--902
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
 []\OT1/cmss/m/n/8 Fig.14: Di-he-dral an-gle in 1,1,2,2-
  []
 
@@ -1834,18 +1855,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig1}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.902 \end{frame}
+l.903 \end{frame}
                  
-Overfull \vbox (6.36618pt too high) detected at line 902
+Overfull \vbox (6.36618pt too high) detected at line 903
  []
 
 [83
 
  <./figures/j-couplings.png> <./figures/C2H2Cl4.png>]
-<figures/CF3H.png, id=2496, 466.8642pt x 383.031pt>
+<figures/CF3H.png, id=2504, 466.8642pt x 383.031pt>
 File: figures/CF3H.png Graphic file (type png)
  <use figures/CF3H.png>
-Package pdftex.def Info: figures/CF3H.png used on input line 911.
+Package pdftex.def Info: figures/CF3H.png used on input line 912.
 (pdftex.def)             Requested size: 233.43152pt x 191.51503pt.
 
 [84
@@ -1864,14 +1885,14 @@ Package pdftex.def Info: figures/CF3H.png used on input line 911.
 File: figures/tetramethylsilane.png Graphic file (type png)
 
 <use figures/tetramethylsilane.png>
-Package pdftex.def Info: figures/tetramethylsilane.png used on input line 968.
+Package pdftex.def Info: figures/tetramethylsilane.png used on input line 969.
 (pdftex.def)             Requested size: 49.65558pt x 38.17575pt.
 
-<figures/Benzene-2D-flat.png, id=2655, 275.0275pt x 295.1025pt>
+<figures/Benzene-2D-flat.png, id=2663, 275.0275pt x 295.1025pt>
 File: figures/Benzene-2D-flat.png Graphic file (type png)
 
 <use figures/Benzene-2D-flat.png>
-Package pdftex.def Info: figures/Benzene-2D-flat.png used on input line 968.
+Package pdftex.def Info: figures/Benzene-2D-flat.png used on input line 969.
 (pdftex.def)             Requested size: 41.25233pt x 44.26346pt.
  [90
 
@@ -1879,20 +1900,20 @@ Package pdftex.def Info: figures/Benzene-2D-flat.png used on input line 968.
 File: figures/tetramethylsilane.png Graphic file (type png)
 
 <use figures/tetramethylsilane.png>
-Package pdftex.def Info: figures/tetramethylsilane.png used on input line 968.
+Package pdftex.def Info: figures/tetramethylsilane.png used on input line 969.
 (pdftex.def)             Requested size: 49.65558pt x 38.17575pt.
 File: figures/Benzene-2D-flat.png Graphic file (type png)
  <use figures/Benzene-2D-flat.png>
-Package pdftex.def Info: figures/Benzene-2D-flat.png used on input line 968.
+Package pdftex.def Info: figures/Benzene-2D-flat.png used on input line 969.
 (pdftex.def)             Requested size: 41.25233pt x 44.26346pt.
  [91
 
 ]
-<figures/DBTproblem1.png, id=2712, 461.0826pt x 176.8206pt>
+<figures/DBTproblem1.png, id=2720, 461.0826pt x 176.8206pt>
 File: figures/DBTproblem1.png Graphic file (type png)
 
 <use figures/DBTproblem1.png>
-Package pdftex.def Info: figures/DBTproblem1.png used on input line 976.
+Package pdftex.def Info: figures/DBTproblem1.png used on input line 977.
 (pdftex.def)             Requested size: 138.32584pt x 53.04657pt.
  [92
 
@@ -1900,17 +1921,17 @@ Package pdftex.def Info: figures/DBTproblem1.png used on input line 976.
 File: figures/DBTproblem1.png Graphic file (type png)
 
 <use figures/DBTproblem1.png>
-Package pdftex.def Info: figures/DBTproblem1.png used on input line 983.
+Package pdftex.def Info: figures/DBTproblem1.png used on input line 984.
 (pdftex.def)             Requested size: 184.42976pt x 70.72697pt.
 
-<figures/DBTproblem2.png, id=2739, 785.8158pt x 276.0714pt>
+<figures/DBTproblem2.png, id=2747, 785.8158pt x 276.0714pt>
 File: figures/DBTproblem2.png Graphic file (type png)
 
 <use figures/DBTproblem2.png>
-Package pdftex.def Info: figures/DBTproblem2.png used on input line 983.
+Package pdftex.def Info: figures/DBTproblem2.png used on input line 984.
 (pdftex.def)             Requested size: 314.32076pt x 110.42659pt.
 
-Overfull \hbox (7.03088pt too wide) in paragraph at lines 983--983
+Overfull \hbox (7.03088pt too wide) in paragraph at lines 984--984
  [][] 
  []
 
@@ -1923,48 +1944,48 @@ Overfull \hbox (7.03088pt too wide) in paragraph at lines 983--983
 ] [96
 
 ]
-<figures/ABsystem.png, id=2844, 796.8972pt x 619.5948pt>
+<figures/ABsystem.png, id=2852, 796.8972pt x 619.5948pt>
 File: figures/ABsystem.png Graphic file (type png)
 
 <use figures/ABsystem.png>
-Package pdftex.def Info: figures/ABsystem.png used on input line 1040.
+Package pdftex.def Info: figures/ABsystem.png used on input line 1041.
 (pdftex.def)             Requested size: 159.37662pt x 123.91676pt.
 
-Overfull \vbox (11.36858pt too high) detected at line 1040
+Overfull \vbox (11.36858pt too high) detected at line 1041
  []
 
 [97
 
  <./figures/ABsystem.png>]
-Overfull \hbox (27.82126pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (27.82126pt too wide) in paragraph at lines 1055--1055
 []  
  []
 
 [98
 
-] <figures/bromothiophene.png, id=2901, 596.2275pt x 445.665pt>
+] <figures/bromothiophene.png, id=2909, 596.2275pt x 445.665pt>
 File: figures/bromothiophene.png Graphic file (type png)
 
 <use figures/bromothiophene.png>
-Package pdftex.def Info: figures/bromothiophene.png used on input line 1077.
+Package pdftex.def Info: figures/bromothiophene.png used on input line 1078.
 (pdftex.def)             Requested size: 149.0565pt x 111.41597pt.
  [99
 
  <./figures/bromothiophene.png>]
-<figures/ABspectra.png, id=2932, 1009.8528pt x 276.0714pt>
+<figures/ABspectra.png, id=2940, 1009.8528pt x 276.0714pt>
 File: figures/ABspectra.png Graphic file (type png)
 
 <use figures/ABspectra.png>
-Package pdftex.def Info: figures/ABspectra.png used on input line 1107.
+Package pdftex.def Info: figures/ABspectra.png used on input line 1108.
 (pdftex.def)             Requested size: 252.46259pt x 69.01767pt.
  [100
 
  <./figures/ABspectra.png>]
-<figures/ABspectra2.png, id=2961, 442.2924pt x 470.7186pt>
+<figures/ABspectra2.png, id=2969, 442.2924pt x 470.7186pt>
 File: figures/ABspectra2.png Graphic file (type png)
 
 <use figures/ABspectra2.png>
-Package pdftex.def Info: figures/ABspectra2.png used on input line 1115.
+Package pdftex.def Info: figures/ABspectra2.png used on input line 1116.
 (pdftex.def)             Requested size: 176.91382pt x 188.28409pt.
  [101
 
@@ -1974,48 +1995,48 @@ Package pdftex.def Info: figures/ABspectra2.png used on input line 1115.
 (NMR_lectures.toc) [103
 
 ]
-Overfull \hbox (15.79494pt too wide) in paragraph at lines 1158--1158
+Overfull \hbox (15.79494pt too wide) in paragraph at lines 1159--1159
 [] 
  []
 
-<figures/dipolar_fields.png, id=3050, 718.685pt x 555.07375pt>
+<figures/dipolar_fields.png, id=3058, 718.685pt x 555.07375pt>
 File: figures/dipolar_fields.png Graphic file (type png)
 
 <use figures/dipolar_fields.png>
-Package pdftex.def Info: figures/dipolar_fields.png used on input line 1158.
+Package pdftex.def Info: figures/dipolar_fields.png used on input line 1159.
 (pdftex.def)             Requested size: 71.8727pt x 55.51062pt.
 
-Overfull \vbox (60.00218pt too high) detected at line 1158
+Overfull \vbox (60.00218pt too high) detected at line 1159
  []
 
 [104
 
  <./figures/dipolar_fields.png>]
-Overfull \hbox (15.79494pt too wide) in paragraph at lines 1158--1158
+Overfull \hbox (15.79494pt too wide) in paragraph at lines 1159--1159
 [] 
  []
 
 File: figures/dipolar_fields.png Graphic file (type png)
 <use figures/dipolar_fields.png>
-Package pdftex.def Info: figures/dipolar_fields.png used on input line 1158.
+Package pdftex.def Info: figures/dipolar_fields.png used on input line 1159.
 (pdftex.def)             Requested size: 71.8727pt x 55.51062pt.
 
-Overfull \vbox (60.00218pt too high) detected at line 1158
+Overfull \vbox (60.00218pt too high) detected at line 1159
  []
 
 [105
 
 ]
-Overfull \hbox (15.79494pt too wide) in paragraph at lines 1158--1158
+Overfull \hbox (15.79494pt too wide) in paragraph at lines 1159--1159
 [] 
  []
 
 File: figures/dipolar_fields.png Graphic file (type png)
 <use figures/dipolar_fields.png>
-Package pdftex.def Info: figures/dipolar_fields.png used on input line 1158.
+Package pdftex.def Info: figures/dipolar_fields.png used on input line 1159.
 (pdftex.def)             Requested size: 71.8727pt x 55.51062pt.
 
-Overfull \vbox (60.00218pt too high) detected at line 1158
+Overfull \vbox (60.00218pt too high) detected at line 1159
  []
 
 [106
@@ -2033,91 +2054,91 @@ Overfull \vbox (60.00218pt too high) detected at line 1158
 ] [112
 
 ]
-<figures/NMRdoublets.png, id=3290, 748.2354pt x 246.1998pt>
+<figures/NMRdoublets.png, id=3298, 748.2354pt x 246.1998pt>
 File: figures/NMRdoublets.png Graphic file (type png)
 
 <use figures/NMRdoublets.png>
-Package pdftex.def Info: figures/NMRdoublets.png used on input line 1271.
+Package pdftex.def Info: figures/NMRdoublets.png used on input line 1272.
 (pdftex.def)             Requested size: 224.47235pt x 73.8605pt.
  [113
 
  <./figures/NMRdoublets.png>]
-<figures/powder_pattern.png, id=3318, 249.93375pt x 307.1475pt>
+<figures/powder_pattern.png, id=3326, 249.93375pt x 307.1475pt>
 File: figures/powder_pattern.png Graphic file (type png)
 
 <use figures/powder_pattern.png>
-Package pdftex.def Info: figures/powder_pattern.png used on input line 1291.
+Package pdftex.def Info: figures/powder_pattern.png used on input line 1292.
 (pdftex.def)             Requested size: 74.9807pt x 92.14496pt.
 
-Underfull \hbox (badness 3449) in paragraph at lines 1291--1291
+Underfull \hbox (badness 3449) in paragraph at lines 1292--1292
 []\OT1/cmss/m/n/8 Fig.20: Pow-der pat-ter
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1291--1291
+Underfull \hbox (badness 1565) in paragraph at lines 1292--1292
 \OT1/cmss/m/n/8 lated to con-ti-nous line.
  []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 1291--1291
+Underfull \hbox (badness 4217) in paragraph at lines 1292--1292
 []\OT1/cmss/m/n/10.95 In most solids mul-ti-ple spins in-ter-act
  []
 
 [114
 
  <./figures/powder_pattern.png (PNG copy)>]
-<figures/powder_pattern2.png, id=3347, 748.2354pt x 509.2626pt>
+<figures/powder_pattern2.png, id=3355, 748.2354pt x 509.2626pt>
 File: figures/powder_pattern2.png Graphic file (type png)
 
 <use figures/powder_pattern2.png>
-Package pdftex.def Info: figures/powder_pattern2.png used on input line 1301.
+Package pdftex.def Info: figures/powder_pattern2.png used on input line 1302.
 (pdftex.def)             Requested size: 224.47235pt x 152.77995pt.
  [115
 
  <./figures/powder_pattern2.png>]
-<figures/solid-liquid_NMR.png, id=3375, 2310.6325pt x 1227.58624pt>
+<figures/solid-liquid_NMR.png, id=3383, 2310.6325pt x 1227.58624pt>
 File: figures/solid-liquid_NMR.png Graphic file (type png)
 
 <use figures/solid-liquid_NMR.png>
-Package pdftex.def Info: figures/solid-liquid_NMR.png used on input line 1311.
+Package pdftex.def Info: figures/solid-liquid_NMR.png used on input line 1312.
 (pdftex.def)             Requested size: 231.07678pt x 122.76581pt.
  [116
 
  <./figures/solid-liquid_NMR.png>]
-<figures/CSA1.png, id=3404, 475.54764pt x 129.09297pt>
+<figures/CSA1.png, id=3412, 475.54764pt x 129.09297pt>
 File: figures/CSA1.png Graphic file (type png)
  <use figures/CSA1.png>
-Package pdftex.def Info: figures/CSA1.png used on input line 1346.
+Package pdftex.def Info: figures/CSA1.png used on input line 1347.
 (pdftex.def)             Requested size: 285.33078pt x 77.45638pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 18.80951 percent inst
-ead of 5 percent on input line 1346.
+ead of 5 percent on input line 1347.
 
 [117
 
  <./figures/CSA1.png>]
 File: figures/CSA1.png Graphic file (type png)
  <use figures/CSA1.png>
-Package pdftex.def Info: figures/CSA1.png used on input line 1346.
+Package pdftex.def Info: figures/CSA1.png used on input line 1347.
 (pdftex.def)             Requested size: 285.33078pt x 77.45638pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 18.80951 percent inst
-ead of 5 percent on input line 1346.
+ead of 5 percent on input line 1347.
 
 [118
 
 ] [119
 
-] <figures/CSA_tensor.png, id=3490, 306.4248pt x 323.7696pt>
+] <figures/CSA_tensor.png, id=3498, 306.4248pt x 323.7696pt>
 File: figures/CSA_tensor.png Graphic file (type png)
 
 <use figures/CSA_tensor.png>
-Package pdftex.def Info: figures/CSA_tensor.png used on input line 1413.
+Package pdftex.def Info: figures/CSA_tensor.png used on input line 1414.
 (pdftex.def)             Requested size: 91.92815pt x 97.13162pt.
 
-Overfull \vbox (0.97145pt too high) detected at line 1413
+Overfull \vbox (0.97145pt too high) detected at line 1414
  []
 
 [120
@@ -2125,24 +2146,24 @@ Overfull \vbox (0.97145pt too high) detected at line 1413
  <./figures/CSA_tensor.png>]
 File: figures/CSA_tensor.png Graphic file (type png)
  <use figures/CSA_tensor.png>
-Package pdftex.def Info: figures/CSA_tensor.png used on input line 1413.
+Package pdftex.def Info: figures/CSA_tensor.png used on input line 1414.
 (pdftex.def)             Requested size: 91.92815pt x 97.13162pt.
 
-Overfull \vbox (0.97145pt too high) detected at line 1413
+Overfull \vbox (0.97145pt too high) detected at line 1414
  []
 
 [121
 
 ] [122
 
-] <figures/CSA2.png, id=3574, 262.581pt x 368.0952pt>
+] <figures/CSA2.png, id=3582, 262.581pt x 368.0952pt>
 File: figures/CSA2.png Graphic file (type png)
 
 <use figures/CSA2.png>
-Package pdftex.def Info: figures/CSA2.png used on input line 1439.
+Package pdftex.def Info: figures/CSA2.png used on input line 1440.
 (pdftex.def)             Requested size: 105.03052pt x 147.23546pt.
 
-Overfull \vbox (10.02727pt too high) detected at line 1439
+Overfull \vbox (10.02727pt too high) detected at line 1440
  []
 
 [123
@@ -2150,27 +2171,27 @@ Overfull \vbox (10.02727pt too high) detected at line 1439
  <./figures/CSA2.png>] [124
 
 ]
-<figures/MAS.png, id=3626, 285.7074pt x 255.8358pt>
+<figures/MAS.png, id=3634, 285.7074pt x 255.8358pt>
 File: figures/MAS.png Graphic file (type png)
  <use figures/MAS.png>
-Package pdftex.def Info: figures/MAS.png used on input line 1471.
+Package pdftex.def Info: figures/MAS.png used on input line 1472.
 (pdftex.def)             Requested size: 114.28091pt x 102.3325pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 14.8758 percent inste
-ad of 5 percent on input line 1471.
+ad of 5 percent on input line 1472.
 
 [125
 
  <./figures/MAS.png>]
 File: figures/MAS.png Graphic file (type png)
  <use figures/MAS.png>
-Package pdftex.def Info: figures/MAS.png used on input line 1471.
+Package pdftex.def Info: figures/MAS.png used on input line 1472.
 (pdftex.def)             Requested size: 114.28091pt x 102.3325pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 14.8758 percent inste
-ad of 5 percent on input line 1471.
+ad of 5 percent on input line 1472.
 
 [126
 
@@ -2189,37 +2210,37 @@ ad of 5 percent on input line 1471.
 ] [133
 
 ]
-<figures/MAS2.png, id=3867, 897.5934pt x 525.162pt>
+<figures/MAS2.png, id=3875, 897.5934pt x 525.162pt>
 File: figures/MAS2.png Graphic file (type png)
  <use figures/MAS2.png>
-Package pdftex.def Info: figures/MAS2.png used on input line 1514.
+Package pdftex.def Info: figures/MAS2.png used on input line 1515.
 (pdftex.def)             Requested size: 269.28009pt x 157.5498pt.
 
 [134
 
  <./figures/MAS2.png>]
-<figures/Quadrupole.png, id=3894, 310.761pt x 147.4308pt>
+<figures/Quadrupole.png, id=3902, 310.761pt x 147.4308pt>
 File: figures/Quadrupole.png Graphic file (type png)
 
 <use figures/Quadrupole.png>
-Package pdftex.def Info: figures/Quadrupole.png used on input line 1532.
+Package pdftex.def Info: figures/Quadrupole.png used on input line 1533.
 (pdftex.def)             Requested size: 155.38011pt x 73.71521pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 14.8758 percent inste
-ad of 5 percent on input line 1532.
+ad of 5 percent on input line 1533.
 
 [135
 
  <./figures/Quadrupole.png>]
 File: figures/Quadrupole.png Graphic file (type png)
  <use figures/Quadrupole.png>
-Package pdftex.def Info: figures/Quadrupole.png used on input line 1532.
+Package pdftex.def Info: figures/Quadrupole.png used on input line 1533.
 (pdftex.def)             Requested size: 155.38011pt x 73.71521pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 14.8758 percent inste
-ad of 5 percent on input line 1532.
+ad of 5 percent on input line 1533.
 
 [136
 
@@ -2227,57 +2248,57 @@ ad of 5 percent on input line 1532.
 
 ] [138
 
-] <figures/Quadrupole2.png, id=4000, 691.383pt x 392.667pt>
+] <figures/Quadrupole2.png, id=4008, 691.383pt x 392.667pt>
 File: figures/Quadrupole2.png Graphic file (type png)
 
 <use figures/Quadrupole2.png>
-Package pdftex.def Info: figures/Quadrupole2.png used on input line 1572.
+Package pdftex.def Info: figures/Quadrupole2.png used on input line 1573.
 (pdftex.def)             Requested size: 276.5483pt x 157.06401pt.
 
-Overfull \vbox (6.91434pt too high) detected at line 1572
+Overfull \vbox (6.91434pt too high) detected at line 1573
  []
 
 [139
 
  <./figures/Quadrupole2.png>]
-<figures/Quadrupole3.png, id=4029, 516.9714pt x 245.2362pt>
+<figures/Quadrupole3.png, id=4037, 516.9714pt x 245.2362pt>
 File: figures/Quadrupole3.png Graphic file (type png)
 
 <use figures/Quadrupole3.png>
-Package pdftex.def Info: figures/Quadrupole3.png used on input line 1592.
+Package pdftex.def Info: figures/Quadrupole3.png used on input line 1593.
 (pdftex.def)             Requested size: 258.48506pt x 122.6178pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 17.16919 percent inst
-ead of 5 percent on input line 1592.
+ead of 5 percent on input line 1593.
 
 [140
 
  <./figures/Quadrupole3.png>]
 File: figures/Quadrupole3.png Graphic file (type png)
  <use figures/Quadrupole3.png>
-Package pdftex.def Info: figures/Quadrupole3.png used on input line 1592.
+Package pdftex.def Info: figures/Quadrupole3.png used on input line 1593.
 (pdftex.def)             Requested size: 258.48506pt x 122.6178pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 17.16919 percent inst
-ead of 5 percent on input line 1592.
+ead of 5 percent on input line 1593.
 
 [141
 
 ]
 File: figures/Quadrupole3.png Graphic file (type png)
  <use figures/Quadrupole3.png>
-Package pdftex.def Info: figures/Quadrupole3.png used on input line 1606.
+Package pdftex.def Info: figures/Quadrupole3.png used on input line 1607.
 (pdftex.def)             Requested size: 258.48506pt x 122.6178pt.
  [142
 
 ]
-<figures/Quadrupole_ZF.png, id=4108, 258.2448pt x 214.8828pt>
+<figures/Quadrupole_ZF.png, id=4116, 258.2448pt x 214.8828pt>
 File: figures/Quadrupole_ZF.png Graphic file (type png)
 
 <use figures/Quadrupole_ZF.png>
-Package pdftex.def Info: figures/Quadrupole_ZF.png used on input line 1617.
+Package pdftex.def Info: figures/Quadrupole_ZF.png used on input line 1618.
 (pdftex.def)             Requested size: 129.12207pt x 107.44113pt.
  [143
 
@@ -2297,67 +2318,67 @@ Package pdftex.def Info: figures/Quadrupole_ZF.png used on input line 1617.
 ]
 File: figures/precession.png Graphic file (type png)
  <use figures/precession.png>
-Package pdftex.def Info: figures/precession.png used on input line 1673.
+Package pdftex.def Info: figures/precession.png used on input line 1674.
 (pdftex.def)             Requested size: 90.64235pt x 109.38783pt.
 pdfTeX warning (ext4): destination with the same identifier (name{precession}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1673 \end{frame}
+l.1674 \end{frame}
                   
 
 Class beamer Warning: Frame text is shrunk by a factor of 5.38177 percent inste
-ad of 5 percent on input line 1673.
+ad of 5 percent on input line 1674.
 
 [150
 
 ]
 File: figures/precession.png Graphic file (type png)
  <use figures/precession.png>
-Package pdftex.def Info: figures/precession.png used on input line 1673.
+Package pdftex.def Info: figures/precession.png used on input line 1674.
 (pdftex.def)             Requested size: 90.64235pt x 109.38783pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 5.38177 percent inste
-ad of 5 percent on input line 1673.
+ad of 5 percent on input line 1674.
 
 [151
 
-] <figures/rotating_frame.png, id=4350, 292.4526pt x 242.8272pt>
+] <figures/rotating_frame.png, id=4358, 292.4526pt x 242.8272pt>
 File: figures/rotating_frame.png Graphic file (type png)
 
 <use figures/rotating_frame.png>
-Package pdftex.def Info: figures/rotating_frame.png used on input line 1697.
+Package pdftex.def Info: figures/rotating_frame.png used on input line 1698.
 (pdftex.def)             Requested size: 87.73645pt x 72.84871pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 15.75165 percent inst
-ead of 5 percent on input line 1697.
+ead of 5 percent on input line 1698.
 
 [152
 
  <./figures/rotating_frame.png>]
 File: figures/rotating_frame.png Graphic file (type png)
  <use figures/rotating_frame.png>
-Package pdftex.def Info: figures/rotating_frame.png used on input line 1697.
+Package pdftex.def Info: figures/rotating_frame.png used on input line 1698.
 (pdftex.def)             Requested size: 87.73645pt x 72.84871pt.
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 15.75165 percent inst
-ead of 5 percent on input line 1697.
+ead of 5 percent on input line 1698.
 
 [153
 
 ] [154
 
 ]
-Overfull \hbox (24.24501pt too wide) detected at line 1734
+Overfull \hbox (24.24501pt too wide) detected at line 1735
 []\OML/cmm/m/it/10.95 ;
  []
 
 
 Class beamer Warning: Frame text is shrunk by a factor of 7.51648 percent inste
-ad of 5 percent on input line 1734.
+ad of 5 percent on input line 1735.
 
 [155
 
@@ -2365,71 +2386,71 @@ ad of 5 percent on input line 1734.
 e}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1755 \end{frame}
+l.1756 \end{frame}
                   
-<figures/rotating_frame_b.png, id=4461, 228.3732pt x 127.1952pt>
+<figures/rotating_frame_b.png, id=4469, 228.3732pt x 127.1952pt>
 File: figures/rotating_frame_b.png Graphic file (type png)
 
 <use figures/rotating_frame_b.png>
-Package pdftex.def Info: figures/rotating_frame_b.png used on input line 1755.
+Package pdftex.def Info: figures/rotating_frame_b.png used on input line 1756.
 (pdftex.def)             Requested size: 68.51248pt x 38.15884pt.
  [156
 
  <./figures/rotating_frame_b.png>]
-<figures/rotating_frame_c.png, id=4490, 241.3818pt x 245.718pt>
+<figures/rotating_frame_c.png, id=4498, 241.3818pt x 245.718pt>
 File: figures/rotating_frame_c.png Graphic file (type png)
 
 <use figures/rotating_frame_c.png>
-Package pdftex.def Info: figures/rotating_frame_c.png used on input line 1778.
+Package pdftex.def Info: figures/rotating_frame_c.png used on input line 1779.
 (pdftex.def)             Requested size: 72.41508pt x 73.71596pt.
  [157
 
  <./figures/rotating_frame_c.png>]
-<figures/rotating_frame_d.png, id=4520, 270.7716pt x 247.6452pt>
+<figures/rotating_frame_d.png, id=4528, 270.7716pt x 247.6452pt>
 File: figures/rotating_frame_d.png Graphic file (type png)
 
 <use figures/rotating_frame_d.png>
-Package pdftex.def Info: figures/rotating_frame_d.png used on input line 1796.
+Package pdftex.def Info: figures/rotating_frame_d.png used on input line 1797.
 (pdftex.def)             Requested size: 81.2321pt x 74.29413pt.
  [158
 
  <./figures/rotating_frame_d.png>]
-<figures/pi_pulses.png, id=4548, 314.1336pt x 502.5174pt>
+<figures/pi_pulses.png, id=4556, 314.1336pt x 502.5174pt>
 File: figures/pi_pulses.png Graphic file (type png)
 
 <use figures/pi_pulses.png>
-Package pdftex.def Info: figures/pi_pulses.png used on input line 1812.
+Package pdftex.def Info: figures/pi_pulses.png used on input line 1813.
 (pdftex.def)             Requested size: 94.2408pt x 150.75638pt.
 
-Underfull \hbox (badness 1721) in paragraph at lines 1812--1812
+Underfull \hbox (badness 1721) in paragraph at lines 1813--1813
 \OT1/cmss/m/n/8 ne-ti-za-tion in the lab-o-ra-tory
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 1812--1812
+Underfull \hbox (badness 1147) in paragraph at lines 1813--1813
 \OT1/cmss/m/n/8 the ro-tat-ing frames im-midi-
  []
 
 [159
 
  <./figures/pi_pulses.png>]
-<figures/coil.png, id=4575, 255.8358pt x 228.3732pt>
+<figures/coil.png, id=4583, 255.8358pt x 228.3732pt>
 File: figures/coil.png Graphic file (type png)
  <use figures/coil.png>
-Package pdftex.def Info: figures/coil.png used on input line 1829.
+Package pdftex.def Info: figures/coil.png used on input line 1830.
 (pdftex.def)             Requested size: 102.3325pt x 91.34766pt.
 
-Overfull \vbox (9.89424pt too high) detected at line 1829
+Overfull \vbox (9.89424pt too high) detected at line 1830
  []
 
 [160
 
  <./figures/coil.png>]
-<figures/tuned_coils.png, id=4604, 562.7424pt x 465.9006pt>
+<figures/tuned_coils.png, id=4612, 562.7424pt x 465.9006pt>
 File: figures/tuned_coils.png Graphic file (type png)
 
 <use figures/tuned_coils.png>
-Package pdftex.def Info: figures/tuned_coils.png used on input line 1852.
+Package pdftex.def Info: figures/tuned_coils.png used on input line 1853.
 (pdftex.def)             Requested size: 225.09297pt x 186.35693pt.
  [161
 
@@ -2437,17 +2458,17 @@ Package pdftex.def Info: figures/tuned_coils.png used on input line 1852.
 dentifier (name{precession}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1889 \end{frame}
+l.1890 \end{frame}
                    [162
 
 ] [163
 
 ]
-<figures/T1buildup.png, id=4686, 884.103pt x 855.6768pt>
+<figures/T1buildup.png, id=4694, 884.103pt x 855.6768pt>
 File: figures/T1buildup.png Graphic file (type png)
 
 <use figures/T1buildup.png>
-Package pdftex.def Info: figures/T1buildup.png used on input line 1905.
+Package pdftex.def Info: figures/T1buildup.png used on input line 1906.
 (pdftex.def)             Requested size: 176.81746pt x 171.13232pt.
  [164
 
@@ -2457,22 +2478,22 @@ pdfTeX warning: pdflatex.exe (file ./figures/T1buildup.png): large interlaced P
 NG might cause out of memory (use non-interlaced PNG to fix this)
 >] [165
 
-] <figures/FID.png, id=4742, 559.8516pt x 276.5532pt>
+] <figures/FID.png, id=4750, 559.8516pt x 276.5532pt>
 File: figures/FID.png Graphic file (type png)
 
 <use figures/FID.png>
-Package pdftex.def Info: figures/FID.png used on input line 1938.
+Package pdftex.def Info: figures/FID.png used on input line 1939.
 (pdftex.def)             Requested size: 223.93666pt x 110.61931pt.
  [166
 
  <./figures/FID.png>] [167
 
 ]
-<figures/spin_echo.png, id=4794, 790.6338pt x 431.6928pt>
+<figures/spin_echo.png, id=4802, 790.6338pt x 431.6928pt>
 File: figures/spin_echo.png Graphic file (type png)
 
 <use figures/spin_echo.png>
-Package pdftex.def Info: figures/spin_echo.png used on input line 1951.
+Package pdftex.def Info: figures/spin_echo.png used on input line 1952.
 (pdftex.def)             Requested size: 237.19197pt x 129.50883pt.
  [168
 
@@ -2484,15 +2505,15 @@ Package pdftex.def Info: figures/spin_echo.png used on input line 1951.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1965.
+(hyperref)                removing `math shift' on input line 1966.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1965.
+(hyperref)                removing `subscript' on input line 1966.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1965.
+(hyperref)                removing `math shift' on input line 1966.
 
 [171
 
@@ -2508,7 +2529,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 File: figures/two_level_population.png Graphic file (type png)
  <use figures/two_level_population.png>
 Package pdftex.def Info: figures/two_level_population.png used on input line 20
-04.
+05.
 (pdftex.def)             Requested size: 92.1879pt x 69.90211pt.
  [176
 
@@ -2520,15 +2541,15 @@ Package pdftex.def Info: figures/two_level_population.png used on input line 20
 ] [179
 
 ]
-<figures/correlation_function.png, id=5117, 870.64095pt x 449.77448pt>
+<figures/correlation_function.png, id=5128, 870.64095pt x 449.77448pt>
 File: figures/correlation_function.png Graphic file (type png)
 
 <use figures/correlation_function.png>
 Package pdftex.def Info: figures/correlation_function.png used on input line 20
-38.
+39.
 (pdftex.def)             Requested size: 348.2502pt x 179.9066pt.
 
-Overfull \hbox (40.96033pt too wide) in paragraph at lines 2038--2038
+Overfull \hbox (40.96033pt too wide) in paragraph at lines 2039--2039
  [] 
  []
 
@@ -2539,23 +2560,23 @@ Overfull \hbox (40.96033pt too wide) in paragraph at lines 2038--2038
 ] [182
 
 ]
-<figures/spectral_density.png, id=5198, 538.09729pt x 469.755pt>
+<figures/spectral_density.png, id=5209, 538.09729pt x 469.755pt>
 File: figures/spectral_density.png Graphic file (type png)
 
 <use figures/spectral_density.png>
-Package pdftex.def Info: figures/spectral_density.png used on input line 2074.
+Package pdftex.def Info: figures/spectral_density.png used on input line 2075.
 (pdftex.def)             Requested size: 161.43044pt x 140.92758pt.
  [183
 
  <./figures/spectral_density.png>]
-<figures/T1_vs_tc.png, id=5226, 695.2374pt x 381.1038pt>
+<figures/T1_vs_tc.png, id=5237, 695.2374pt x 381.1038pt>
 File: figures/T1_vs_tc.png Graphic file (type png)
 
 <use figures/T1_vs_tc.png>
-Package pdftex.def Info: figures/T1_vs_tc.png used on input line 2088.
+Package pdftex.def Info: figures/T1_vs_tc.png used on input line 2089.
 (pdftex.def)             Requested size: 278.09003pt x 152.43881pt.
 
-Overfull \vbox (7.21877pt too high) detected at line 2088
+Overfull \vbox (7.21877pt too high) detected at line 2089
  []
 
 [184
@@ -2565,96 +2586,96 @@ Overfull \vbox (7.21877pt too high) detected at line 2088
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2097.
+(hyperref)                removing `math shift' on input line 2098.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2097.
+(hyperref)                removing `subscript' on input line 2098.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2097.
+(hyperref)                removing `math shift' on input line 2098.
 
 [186
 
-] <figures/T1_T2_vs_tc.png, id=5306, 720.57442pt x 533.52264pt>
+] <figures/T1_T2_vs_tc.png, id=5317, 720.57442pt x 533.52264pt>
 File: figures/T1_T2_vs_tc.png Graphic file (type png)
 
 <use figures/T1_T2_vs_tc.png>
-Package pdftex.def Info: figures/T1_T2_vs_tc.png used on input line 2114.
+Package pdftex.def Info: figures/T1_T2_vs_tc.png used on input line 2115.
 (pdftex.def)             Requested size: 288.22466pt x 213.40527pt.
 
-Overfull \vbox (14.0629pt too high) detected at line 2114
+Overfull \vbox (14.0629pt too high) detected at line 2115
  []
 
 [187
 
  <./figures/T1_T2_vs_tc.png>]
-<figures/table_relax_mechanisms.png, id=5337, 331.2375pt x 438.55846pt>
+<figures/table_relax_mechanisms.png, id=5348, 331.2375pt x 438.55846pt>
 File: figures/table_relax_mechanisms.png Graphic file (type png)
 
 <use figures/table_relax_mechanisms.png>
 Package pdftex.def Info: figures/table_relax_mechanisms.png used on input line 
-2127.
+2128.
 (pdftex.def)             Requested size: 165.61833pt x 219.27869pt.
  [188
 
  <./figures/table_relax_mechanisms.png>] [189
 
-] <figures/contrast_MRI_Gd.png, id=5392, 301.125pt x 162.6075pt>
+] <figures/contrast_MRI_Gd.png, id=5403, 301.125pt x 162.6075pt>
 File: figures/contrast_MRI_Gd.png Graphic file (type png)
 
 <use figures/contrast_MRI_Gd.png>
-Package pdftex.def Info: figures/contrast_MRI_Gd.png used on input line 2146.
+Package pdftex.def Info: figures/contrast_MRI_Gd.png used on input line 2147.
 (pdftex.def)             Requested size: 271.00998pt x 146.3454pt.
  [190
 
  <./figures/contrast_MRI_Gd.png>]
 [191
 
-] <figures/exchange_sqns.png, id=5443, 384.9582pt x 133.9404pt>
+] <figures/exchange_sqns.png, id=5454, 384.9582pt x 133.9404pt>
 File: figures/exchange_sqns.png Graphic file (type png)
 
 <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [192
@@ -2662,45 +2683,45 @@ Overfull \vbox (3.36618pt too high) detected at line 2217
  <./figures/exchange_sqns.png>]
 File: figures/exchange_sqns.png Graphic file (type png)
  <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [193
@@ -2708,45 +2729,45 @@ Overfull \vbox (3.36618pt too high) detected at line 2217
 ]
 File: figures/exchange_sqns.png Graphic file (type png)
  <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [194
@@ -2754,45 +2775,45 @@ Overfull \vbox (3.36618pt too high) detected at line 2217
 ]
 File: figures/exchange_sqns.png Graphic file (type png)
  <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [195
@@ -2800,45 +2821,45 @@ Overfull \vbox (3.36618pt too high) detected at line 2217
 ]
 File: figures/exchange_sqns.png Graphic file (type png)
  <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [196
@@ -2846,45 +2867,45 @@ Overfull \vbox (3.36618pt too high) detected at line 2217
 ]
 File: figures/exchange_sqns.png Graphic file (type png)
  <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [197
@@ -2892,72 +2913,171 @@ Overfull \vbox (3.36618pt too high) detected at line 2217
 ]
 File: figures/exchange_sqns.png Graphic file (type png)
  <use figures/exchange_sqns.png>
-Package pdftex.def Info: figures/exchange_sqns.png used on input line 2217.
+Package pdftex.def Info: figures/exchange_sqns.png used on input line 2218.
 (pdftex.def)             Requested size: 153.98055pt x 53.5752pt.
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (1')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (2')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3)| 
  []
 
 
-Overfull \hbox (4.22635pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (4.22635pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (3')| 
  []
 
 
-Overfull \hbox (2.45549pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (2.45549pt too wide) in paragraph at lines 2218--2218
  []|\OT1/cmss/m/n/6 (4)| 
  []
 
 
-Overfull \hbox (33.15451pt too wide) in paragraph at lines 2217--2217
+Overfull \hbox (33.15451pt too wide) in paragraph at lines 2218--2218
  [] 
  []
 
 
-Overfull \vbox (3.36618pt too high) detected at line 2217
+Overfull \vbox (3.36618pt too high) detected at line 2218
  []
 
 [198
 
-] <figures/2D_exchange.png, id=5629, 511.1898pt x 251.9814pt>
+] <figures/2D_exchange.png, id=5641, 511.1898pt x 251.9814pt>
 File: figures/2D_exchange.png Graphic file (type png)
 
 <use figures/2D_exchange.png>
-Package pdftex.def Info: figures/2D_exchange.png used on input line 2230.
+Package pdftex.def Info: figures/2D_exchange.png used on input line 2231.
 (pdftex.def)             Requested size: 255.59427pt x 125.99039pt.
 
-Overfull \vbox (6.91888pt too high) detected at line 2230
+Overfull \vbox (6.91888pt too high) detected at line 2231
  []
 
 [199
 
  <./figures/2D_exchange.png>]
-<figures/NNdimethylacetamide.png, id=5657, 573.8238pt x 489.5088pt>
+<figures/NNdimethylacetamide.png, id=5669, 573.8238pt x 489.5088pt>
 File: figures/NNdimethylacetamide.png Graphic file (type png)
 
 <use figures/NNdimethylacetamide.png>
 Package pdftex.def Info: figures/NNdimethylacetamide.png used on input line 224
-0.
+2.
 (pdftex.def)             Requested size: 229.52545pt x 195.80005pt.
- [200
+
+Overfull \vbox (17.19104pt too high) detected at line 2242
+ []
+
+[200
 
  <./figures/NNdimethylacetamide.png>]
+Overfull \hbox (10.82889pt too wide) in paragraph at lines 2288--2288
+ []|\OT1/cmss/m/n/6 Dipolar 
+ []
+
+
+Overfull \hbox (7.80388pt too wide) in paragraph at lines 2288--2288
+ \OT1/cmss/m/n/6 Terms| 
+ []
+
+
+Overfull \hbox (4.84822pt too wide) in paragraph at lines 2288--2288
+ []|$\OT1/mathkerncmss/m/sl/6 C\OML/cmm/m/it/6 ; \OT1/mathkerncmss/m/sl/6 D$| 
+ []
+
+
+Overfull \hbox (4.84822pt too wide) in paragraph at lines 2288--2288
+ []|$\OT1/mathkerncmss/m/sl/6 C\OML/cmm/m/it/6 ; \OT1/mathkerncmss/m/sl/6 D$| 
+ []
+
+
+Overfull \hbox (3.99413pt too wide) in paragraph at lines 2288--2288
+ []|$\OT1/mathkerncmss/m/sl/6 E\OML/cmm/m/it/6 ; \OT1/mathkerncmss/m/sl/6 F$| 
+ []
+
+<figures/4_level_relaxation.png, id=5696, 673.5564pt x 507.3354pt>
+File: figures/4_level_relaxation.png Graphic file (type png)
+
+<use figures/4_level_relaxation.png>
+Package pdftex.def Info: figures/4_level_relaxation.png used on input line 2288
+.
+(pdftex.def)             Requested size: 134.7089pt x 101.46527pt.
+
+Overfull \hbox (42.521pt too wide) in paragraph at lines 2288--2288
+ [] 
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 2288--2288
+\OT1/cmss/m/n/8 tran-si-tion in dd-coupled
+ []
+
+[201
+
+ <./figures/4_level_relaxation.png>]
+Overfull \hbox (10.6964pt too wide) detected at line 2308
+ []$[]  \OT1/mathkerncmss/m/sl/10.95 W[] \OT1/cmss/m/n/10.95 = [][] []\OT1/math
+kerncmss/m/sl/10.95 e[]d\OML/cmm/m/it/10.95  \OT1/cmss/m/n/10.95 =$ 
+ []
+
+
+Overfull \hbox (42.89125pt too wide) detected at line 2308
+ []$[] \OT1/cmss/m/n/10.95 = [][][][][][] \OMS/cmsy/m/n/10.95 j h\OML/cmm/m/it/
+10.95  \OMS/cmsy/m/n/10.95 j [][] \OT1/cmss/m/n/10.95 + [][] \OMS/cmsy/m/n/10
+.95 j \OML/cmm/m/it/10.95 \OMS/cmsy/m/n/10.95 i j[] h\OT1/cmss/m/n/10.95 (3 [
+][] \OML/cmm/m/it/10.95  \OMS/cmsy/m/n/10.95   \OT1/cmss/m/n/10.95 1)[]\OMS/cm
+sy/m/n/10.95 i\OT1/mathkerncmss/m/sl/10.95 J\OT1/cmss/m/n/10.95 (\OML/cmm/m/it/
+10.95 ![] \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.95 ![]\OT1/cmss/m/n/10.95 )$ [
+]  
+ []
+
+
+Class beamer Warning: Frame text is shrunk by a factor of 5.74493 percent inste
+ad of 5 percent on input line 2308.
+
+[202
+
+]
+Overfull \hbox (6.19525pt too wide) detected at line 2330
+[]
+ []
+
+
+Class beamer Warning: Frame text is shrunk by a factor of 14.8758 percent inste
+ad of 5 percent on input line 2330.
+
+[203
+
+] [204
+
+] [205
+
+] [206
+
+]
+LaTeX Font Info:    Try loading font information for LGR+cmss on input line 237
+6.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmss.fd"
+File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
+) [207
+
+]
+[208
+
+]
 \tf@nav=\write6
 \openout6 = `NMR_lectures.nav'.
 
@@ -2967,14 +3087,14 @@ Package pdftex.def Info: figures/NNdimethylacetamide.png used on input line 224
 \tf@snm=\write8
 \openout8 = `NMR_lectures.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2400.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2400.
-(NMR_lectures.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2400.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2400.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2556.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2556.
+ (NMR_lectures.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2556.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2556.
 
 Package rerunfilecheck Info: File `NMR_lectures.out' has not changed.
-(rerunfilecheck)             Checksum: 9C3D050770BC9EF6FC23D9E8BA48541D;2707.
+(rerunfilecheck)             Checksum: 3DB421809A7D299F0C29708C997EF393;2880.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2985,49 +3105,51 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18734 strings out of 493335
- 353658 string characters out of 3136680
- 439620 words of memory out of 3000000
- 21251 multiletter control sequences out of 15000+200000
- 36180 words of font info for 108 fonts, out of 3000000 for 9000
+ 19563 strings out of 493335
+ 371151 string characters out of 3136680
+ 445898 words of memory out of 3000000
+ 22042 multiletter control sequences out of 15000+200000
+ 36930 words of font info for 109 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,64p,831b,664s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi375\
-ecso0800.pk> <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi450\ecso0800.pk> <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecso0800.pk> <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi657\ecso1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cmextra/cmmib6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmss9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-sbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-si10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss
-i12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi
-8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on NMR_lectures.pdf (200 pages, 13209089 bytes).
+ <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cbgreek\dpi6
+00\gsmn1095.pk> <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi375\ecso0800.pk> <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi450\ecso0800.pk> <C:\Users\ppzap\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecso0800.pk> <C:\Users\ppzap\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi657\ecso1000.pk><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cmextra/cmmib6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmss9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmssi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmssi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
+m7.pfb>
+Output written on NMR_lectures.pdf (208 pages, 13312893 bytes).
 PDF statistics:
- 5932 PDF objects out of 6186 (max. 8388607)
- 469 named destinations out of 1000 (max. 500000)
- 702 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6161 PDF objects out of 6186 (max. 8388607)
+ 487 named destinations out of 1000 (max. 500000)
+ 723 words of extra memory for PDF output out of 10000 (max. 10000000)
 

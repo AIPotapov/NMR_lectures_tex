@@ -289,8 +289,26 @@
 \headcommand {\beamer@framepages {199}{199}}
 \headcommand {\slideentry {5}{4}{3}{200/200}{2D NMR: exchange experiment.}{0}}
 \headcommand {\beamer@framepages {200}{200}}
-\headcommand {\beamer@partpages {1}{200}}
-\headcommand {\beamer@subsectionpages {192}{200}}
-\headcommand {\beamer@sectionpages {170}{200}}
-\headcommand {\beamer@documentpages {200}}
-\headcommand {\def \inserttotalframenumber {123}}
+\headcommand {\beamer@subsectionentry {0}{5}{5}{201}{Relaxation due to dipole-dipole coupling.}}\headcommand {\beamer@subsectionpages {192}{200}}
+\headcommand {\slideentry {5}{5}{1}{201/201}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@framepages {201}{201}}
+\headcommand {\slideentry {5}{5}{2}{202/202}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@framepages {202}{202}}
+\headcommand {\slideentry {5}{5}{3}{203/203}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@framepages {203}{203}}
+\headcommand {\slideentry {5}{5}{4}{204/204}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@framepages {204}{204}}
+\headcommand {\slideentry {5}{5}{5}{205/205}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@framepages {205}{205}}
+\headcommand {\slideentry {5}{5}{6}{206/206}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@framepages {206}{206}}
+\headcommand {\beamer@subsectionentry {0}{5}{6}{207}{Nuclear Overhauser effect.}}\headcommand {\beamer@subsectionpages {201}{206}}
+\headcommand {\slideentry {5}{6}{1}{207/207}{Nuclear Overhauser effect.}{0}}
+\headcommand {\beamer@framepages {207}{207}}
+\headcommand {\slideentry {5}{6}{2}{208/208}{Nuclear Overhauser effect.}{0}}
+\headcommand {\beamer@framepages {208}{208}}
+\headcommand {\beamer@partpages {1}{208}}
+\headcommand {\beamer@subsectionpages {207}{208}}
+\headcommand {\beamer@sectionpages {170}{208}}
+\headcommand {\beamer@documentpages {208}}
+\headcommand {\def \inserttotalframenumber {131}}
