@@ -36,3 +36,7 @@
 \beamer@subsectionintoc {6}{1}{ Exchange experiment.}{193}{0}{6}
 \beamer@subsectionintoc {6}{2}{Relaxation due to dipole-dipole coupling.}{202}{0}{6}
 \beamer@subsectionintoc {6}{3}{NOESY experiment.}{209}{0}{6}
+\beamer@sectionintoc {7}{Magnetic Resonance Imaging.}{212}{0}{7}
+\beamer@subsectionintoc {7}{1}{Magnetic Field Gradients}{213}{0}{7}
+\beamer@subsectionintoc {7}{2}{Simple 2D MRI}{214}{0}{7}
+\beamer@subsectionintoc {7}{3}{Slice Selection.}{217}{0}{7}

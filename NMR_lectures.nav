@@ -316,10 +316,28 @@
 \headcommand {\beamer@framepages {210}{210}}
 \headcommand {\slideentry {6}{3}{3}{211/211}{NOESY experiment.}{0}}
 \headcommand {\beamer@framepages {211}{211}}
-\headcommand {\slideentry {6}{3}{4}{212/212}{NOESY experiment.}{0}}
+\headcommand {\sectionentry {7}{Magnetic Resonance Imaging.}{212}{Magnetic Resonance Imaging.}{0}}
+\headcommand {\beamer@sectionpages {192}{211}}
+\headcommand {\beamer@subsectionpages {209}{211}}
+\headcommand {\slideentry {7}{0}{1}{212/212}{}{0}}
 \headcommand {\beamer@framepages {212}{212}}
-\headcommand {\beamer@partpages {1}{212}}
-\headcommand {\beamer@subsectionpages {209}{212}}
-\headcommand {\beamer@sectionpages {192}{212}}
-\headcommand {\beamer@documentpages {212}}
-\headcommand {\def \inserttotalframenumber {135}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{213}{Magnetic Field Gradients}}\headcommand {\beamer@subsectionpages {212}{212}}
+\headcommand {\slideentry {7}{1}{1}{213/213}{Magnetic Field Gradients}{0}}
+\headcommand {\beamer@framepages {213}{213}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{214}{Simple 2D MRI}}\headcommand {\beamer@subsectionpages {213}{213}}
+\headcommand {\slideentry {7}{2}{1}{214/214}{Simple 2D MRI}{0}}
+\headcommand {\beamer@framepages {214}{214}}
+\headcommand {\slideentry {7}{2}{2}{215/215}{Simple 2D MRI}{0}}
+\headcommand {\beamer@framepages {215}{215}}
+\headcommand {\slideentry {7}{2}{3}{216/216}{Simple 2D MRI}{0}}
+\headcommand {\beamer@framepages {216}{216}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{217}{Slice Selection.}}\headcommand {\beamer@subsectionpages {214}{216}}
+\headcommand {\slideentry {7}{3}{1}{217/217}{Slice Selection.}{0}}
+\headcommand {\beamer@framepages {217}{217}}
+\headcommand {\slideentry {7}{3}{2}{218/218}{Slice Selection.}{0}}
+\headcommand {\beamer@framepages {218}{218}}
+\headcommand {\beamer@partpages {1}{218}}
+\headcommand {\beamer@subsectionpages {217}{218}}
+\headcommand {\beamer@sectionpages {212}{218}}
+\headcommand {\beamer@documentpages {218}}
+\headcommand {\def \inserttotalframenumber {141}}
