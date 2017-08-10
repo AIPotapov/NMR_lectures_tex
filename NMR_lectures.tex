@@ -2155,8 +2155,8 @@ For all the transitions we obtain:
     \end{itemize}
 \end{frame}
 
-\subsection{2D NMR: exchange experiment.}
-
+\section{2D NMR basics.}
+\subsection{ Exchange experiment.}
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
     \begin{figure}
     	\centering
@@ -2330,7 +2330,6 @@ In this section we will consider the relaxation  (cross-relaxation)  due to time
 \end{frame}
 
 
-
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
   These are known as \alert{Solomon equations}. The first term in each of these equations reflects \alert{auto-relaxation}, while the second terms relates to \alert{cross-relaxation} which links $X$-spin and $A$-spin population differences. This yields a value for the auto $T_1$-relaxation rate of the $A$ spin population due to heteronuclear dipole-dipole coupling as:
   \begin{multline}
@@ -2375,39 +2374,56 @@ The rate of change of the average magnetization of one spin as a results of cros
   \begin{equation}
     W_0 - W_2 =  \dfrac{1}{20} \Big(  \dfrac{\mu_0}{4 \pi} \dfrac{\gamma_A \gamma_X \hbar}{r^3} \Big)^2 \big( J(0) - 6J(2 \omega_0) \big)
   \end{equation}
-  the dependence on $r^6$ means that this rate is very strongly dependent on the spatial separation of the coupled nuclei and sp cross-relaxation effects will be dominated by nearby nuclei. This effect is exploited in the NOESY (Nuclear Overhauser Effect ) 2D-NMR spectroscopy technique, in which cross-peaks between nearby \textsuperscript{1}H sites in large molecules in solution are generated as a result of cross-relaxation and the amplitude of these peaks give an indication of the rate of cross-relaxation and thus the distance between the couples \textsuperscript{1}H nuclei. \\
+  the dependence on $r^6$ means that this rate is very strongly dependent on the spatial separation of the coupled nuclei and s cross-relaxation effects will be dominated by nearby nuclei.
+  
+\end{frame}
+
+\subsection{NOESY experiment.} 
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+  \begin{figure}
+  	  \centering
+  	  \includegraphics[scale=0.35]{figures/2D_NOESY_BPTI.png}
+  	  \caption{2D NOESY spectrum of BPTI protein.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+
+   This effect is exploited in the\alert{ NOESY (Nuclear Overhauser Effect)} 2D-NMR spectroscopy technique, in which cross-peaks between nearby \textsuperscript{1}H sites in large molecules in solution are generated as a result of cross-relaxation and the amplitude of these peaks give an indication of the rate of cross-relaxation and thus the distance between the couples \textsuperscript{1}H nuclei.  \\
+      NOESY exploits magnetization exchange pulse sequence discussed earlier.    \\
   NOESY is a key technique for the determination of protein structure, since it provides constraints on distances between \textsuperscript{1}H atoms in different regions of the molecules.
   
 \end{frame}
 
 
-\subsection{Nuclear Overhauser effect.}
-
-\begin{frame}{\thesection.\thesubsection. \insertsubsection}
-   Cross-relaxation via dipolar coupling provides a way of enhancing the signal from low-\textgamma nuclei and also for probing the spatial structure of large molecules (e.g. proteins). \\
-   The Nuclear Overhauser Effect describes the change in the population difference of $A$-spins produced by cross-relaxation when RF is continuously applied to the $X$-spins. Such RF irradiation equalizes he populations of $X$-spin $\mid \alpha \rangle$ and $\mid \beta \rangle$ states so $n_{\alpha \alpha} = n_{\alpha \beta}$ and $n_{\beta \alpha} = n_{\beta \beta}$, and consequently $N_X = 0$.
-\end{frame}
-
-\begin{frame}{\thesection.\thesubsection. \insertsubsection}
- The first Solomon equation thus becomes:
- \begin{equation}
-         \dfrac{d N_A}{dt} = - (W_0 + 2W_{1A}+W_2)(N_A - N_A^0) + (W_2 - W_0)N_X^0
- \end{equation}
- After a long period of irradiation, a steady state is then reached with $\dfrac{d N_A}{dt} =0$ giving
- \begin{equation}
-   -(W_0 + 2 W_{1A} + W_2)(N_A - N_A^0)
- \end{equation}
- which yields
- \begin{equation}
-    \dfrac{N_A}{N_A^0} = 1 + \dfrac{N_X^0}{N_A^0} \Big(  \dfrac{W_2 - W_0}{W_0 + 2 W_{1A} + W_2} \Big)
- \end{equation}
-In the extreme narrowing limit this becomes:
-  \begin{equation}
-    \dfrac{N_A}{N_A^0} = 1  + \dfrac{N_X^0}{2 N_A^0}
-  \end{equation}
-
-\end{frame}
-
+%\subsection{Nuclear Overhauser effect.}
+%
+%\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+%   Cross-relaxation via dipolar coupling provides a way of enhancing the signal from low-\textgamma nuclei and also for probing the spatial structure of large molecules (e.g. proteins). \\
+%   The Nuclear Overhauser Effect describes the change in the population difference of $A$-spins produced by cross-relaxation when RF is continuously applied to the $X$-spins. Such RF irradiation equalizes he populations of $X$-spin $\mid \alpha \rangle$ and $\mid \beta \rangle$ states so $n_{\alpha \alpha} = n_{\alpha \beta}$ and $n_{\beta \alpha} = n_{\beta \beta}$, and consequently $N_X = 0$.
+%\end{frame}
+%
+%\begin{frame}{\thesection.\thesubsection. \insertsubsection}
+% The first Solomon equation thus becomes:
+% \begin{equation}
+%         \dfrac{d N_A}{dt} = - (W_0 + 2W_{1A}+W_2)(N_A - N_A^0) + (W_2 - W_0)N_X^0
+% \end{equation}
+% After a long period of irradiation, a steady state is then reached with $\dfrac{d N_A}{dt} =0$ giving
+% \begin{equation}
+%   -(W_0 + 2 W_{1A} + W_2)(N_A - N_A^0)
+% \end{equation}
+% which yields
+% \begin{equation}
+%    \dfrac{N_A}{N_A^0} = 1 + \dfrac{N_X^0}{N_A^0} \Big(  \dfrac{W_2 - W_0}{W_0 + 2 W_{1A} + W_2} \Big)
+% \end{equation}
+%In the extreme narrowing limit this becomes:
+%  \begin{equation}
+%    \dfrac{N_A}{N_A^0} = 1  + \dfrac{N_X^0}{2 N_A^0}
+%  \end{equation}
+%
+%\end{frame}
+%
 
 \begin{frame}{\thesection.\thesubsection. \insertsubsection}
    Since the equilibrium population differences scale with the magnetogyric ratios, $\dfrac{N_X^0}{N_A^0} = \dfrac{\gamma_X}{\gamma_A}$, this gives:
@@ -2418,6 +2434,14 @@ In the extreme narrowing limit this becomes:
    Appying continuous RF to \textsuperscript{1}H ($X$) therefore increases the population difference of dipole-coupled, \textsuperscript{13}C ($A$) spins in small molecules by a factor of $1 + \dfrac{\gamma_{1H}}{2 \gamma_{13C}} \sim 2.998$, which can be translated into a similar increase in the \textsuperscript{13}C NMR signal strength. For larger molecules, with larger values of $\tau_c$, the enhancement is smaller and can in fact be less than 1. In the case of nuclei with negative \textgamma-values (e.g. \textsuperscript{15}N), the sign of the magnetization/NMR signal/peak can be made negative by the NOE.
 \end{frame}
 
+\begin{frame}{Summary of Lecture 9.}
+  \begin{itemize}
+  	\item Exchange experiment pulse sequence is one of the simplest 2D NMR experiments,  and forms the basis for many pulse NMR experiments.
+  	\item Dipole-dipole cross-relaxation is very pronounced process in liquids and present a form of magnetization "exchange" between nuclei
+  	\item NOESY experiment is a key experiment in protein NMR allowing to probe the contacts in protein.
+  \end{itemize}
+   \textbf{Suggested reading:} Harris SSS
+\end{frame}
 %\begin{frame}   
 %    Let's consider relaxation in a two level system described by unperturbed Hamiltonian $\hat{H}_0$ with eigenfunctions $\vert 1 \rangle, \vert 2 \rangle$, and corresponding energies $E_1, E_2$. $\hat{V}(t)$ is a time-dependent perturbation. Wavefunction $\Psi$ is a solution of a full Hamiltonian $\hat{H}$:
 %    \begin{equation} \label{eq: relaxation_Schredinger}

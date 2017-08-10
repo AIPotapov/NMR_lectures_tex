@@ -32,6 +32,7 @@
 \beamer@subsectionintoc {5}{1}{$T_1$ relaxation}{171}{0}{5}
 \beamer@subsectionintoc {5}{2}{$T_2$ relaxation}{186}{0}{5}
 \beamer@subsectionintoc {5}{3}{Relaxation mechanisms.}{188}{0}{5}
-\beamer@subsectionintoc {5}{4}{2D NMR: exchange experiment.}{192}{0}{5}
-\beamer@subsectionintoc {5}{5}{Relaxation due to dipole-dipole coupling.}{201}{0}{5}
-\beamer@subsectionintoc {5}{6}{Nuclear Overhauser effect.}{207}{0}{5}
+\beamer@sectionintoc {6}{2D NMR basics.}{192}{0}{6}
+\beamer@subsectionintoc {6}{1}{ Exchange experiment.}{193}{0}{6}
+\beamer@subsectionintoc {6}{2}{Relaxation due to dipole-dipole coupling.}{202}{0}{6}
+\beamer@subsectionintoc {6}{3}{NOESY experiment.}{209}{0}{6}

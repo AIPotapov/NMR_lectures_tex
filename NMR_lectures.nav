@@ -282,33 +282,44 @@
 \headcommand {\beamer@framepages {190}{190}}
 \headcommand {\slideentry {5}{3}{4}{191/191}{Relaxation mechanisms.}{0}}
 \headcommand {\beamer@framepages {191}{191}}
-\headcommand {\beamer@subsectionentry {0}{5}{4}{192}{2D NMR: exchange experiment.}}\headcommand {\beamer@subsectionpages {188}{191}}
-\headcommand {\slideentry {5}{4}{1}{192/198}{2D NMR: exchange experiment.}{0}}
-\headcommand {\beamer@framepages {192}{198}}
-\headcommand {\slideentry {5}{4}{2}{199/199}{2D NMR: exchange experiment.}{0}}
-\headcommand {\beamer@framepages {199}{199}}
-\headcommand {\slideentry {5}{4}{3}{200/200}{2D NMR: exchange experiment.}{0}}
+\headcommand {\sectionentry {6}{2D NMR basics.}{192}{2D NMR basics.}{0}}
+\headcommand {\beamer@sectionpages {170}{191}}
+\headcommand {\beamer@subsectionpages {188}{191}}
+\headcommand {\slideentry {6}{0}{1}{192/192}{}{0}}
+\headcommand {\beamer@framepages {192}{192}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{193}{ Exchange experiment.}}\headcommand {\beamer@subsectionpages {192}{192}}
+\headcommand {\slideentry {6}{1}{1}{193/199}{ Exchange experiment.}{0}}
+\headcommand {\beamer@framepages {193}{199}}
+\headcommand {\slideentry {6}{1}{2}{200/200}{ Exchange experiment.}{0}}
 \headcommand {\beamer@framepages {200}{200}}
-\headcommand {\beamer@subsectionentry {0}{5}{5}{201}{Relaxation due to dipole-dipole coupling.}}\headcommand {\beamer@subsectionpages {192}{200}}
-\headcommand {\slideentry {5}{5}{1}{201/201}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\slideentry {6}{1}{3}{201/201}{ Exchange experiment.}{0}}
 \headcommand {\beamer@framepages {201}{201}}
-\headcommand {\slideentry {5}{5}{2}{202/202}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{202}{Relaxation due to dipole-dipole coupling.}}\headcommand {\beamer@subsectionpages {193}{201}}
+\headcommand {\slideentry {6}{2}{1}{202/202}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {202}{202}}
-\headcommand {\slideentry {5}{5}{3}{203/203}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\slideentry {6}{2}{2}{203/203}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {203}{203}}
-\headcommand {\slideentry {5}{5}{4}{204/204}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\slideentry {6}{2}{3}{204/204}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {204}{204}}
-\headcommand {\slideentry {5}{5}{5}{205/205}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\slideentry {6}{2}{4}{205/205}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {205}{205}}
-\headcommand {\slideentry {5}{5}{6}{206/206}{Relaxation due to dipole-dipole coupling.}{0}}
+\headcommand {\slideentry {6}{2}{5}{206/206}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {206}{206}}
-\headcommand {\beamer@subsectionentry {0}{5}{6}{207}{Nuclear Overhauser effect.}}\headcommand {\beamer@subsectionpages {201}{206}}
-\headcommand {\slideentry {5}{6}{1}{207/207}{Nuclear Overhauser effect.}{0}}
+\headcommand {\slideentry {6}{2}{6}{207/207}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {207}{207}}
-\headcommand {\slideentry {5}{6}{2}{208/208}{Nuclear Overhauser effect.}{0}}
+\headcommand {\slideentry {6}{2}{7}{208/208}{Relaxation due to dipole-dipole coupling.}{0}}
 \headcommand {\beamer@framepages {208}{208}}
-\headcommand {\beamer@partpages {1}{208}}
-\headcommand {\beamer@subsectionpages {207}{208}}
-\headcommand {\beamer@sectionpages {170}{208}}
-\headcommand {\beamer@documentpages {208}}
-\headcommand {\def \inserttotalframenumber {131}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{209}{NOESY experiment.}}\headcommand {\beamer@subsectionpages {202}{208}}
+\headcommand {\slideentry {6}{3}{1}{209/209}{NOESY experiment.}{0}}
+\headcommand {\beamer@framepages {209}{209}}
+\headcommand {\slideentry {6}{3}{2}{210/210}{NOESY experiment.}{0}}
+\headcommand {\beamer@framepages {210}{210}}
+\headcommand {\slideentry {6}{3}{3}{211/211}{NOESY experiment.}{0}}
+\headcommand {\beamer@framepages {211}{211}}
+\headcommand {\slideentry {6}{3}{4}{212/212}{NOESY experiment.}{0}}
+\headcommand {\beamer@framepages {212}{212}}
+\headcommand {\beamer@partpages {1}{212}}
+\headcommand {\beamer@subsectionpages {209}{212}}
+\headcommand {\beamer@sectionpages {192}{212}}
+\headcommand {\beamer@documentpages {212}}
+\headcommand {\def \inserttotalframenumber {135}}
